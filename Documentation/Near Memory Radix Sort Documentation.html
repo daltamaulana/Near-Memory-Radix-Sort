@@ -1,0 +1,734 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --mermaid-theme: default; --mermaid-sequence-numbers: off; --mermaid-flowchart-curve: linear; --mermaid--gantt-left-padding: 75; --sequence-theme: simple; }
+
+
+:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-fences-math .MathJax_SVG_Display, .md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: visible; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; zoom: 90%; }
+#math-inline-preview-content { zoom: 1.1; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-math .MathJax_SVG_Display { margin-top: 8px; cursor: default; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+
+
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 30px; z-index: 3; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+span.cm-underlined { text-decoration: underline; }
+span.cm-strikethrough { text-decoration: line-through; }
+.cm-tw-syntaxerror { color: rgb(255, 255, 255); background-color: rgb(153, 0, 0); }
+.cm-tw-deleted { text-decoration: line-through; }
+.cm-tw-header5 { font-weight: 700; }
+.cm-tw-listitem:first-child { padding-left: 10px; }
+.cm-tw-box { border-style: solid; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color: inherit; border-top-width: 0px !important; }
+.cm-tw-underline { text-decoration: underline; }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+ :root {--mermaid-font-zoom:1.5em ;} 
+</style><title>Near Memory Radix Sort Documentation</title>
+</head>
+<body class='typora-export os-windows'><div class='typora-export-content'>
+<div id='write'  class=''><h1 id='near-memory-radix-sort-documentation'><span>Near Memory Radix Sort Documentation</span></h1><blockquote><p><span>This document contains information related to near memory radix sort project, especially module dependencies and module operations.</span></p></blockquote><p><span> </span></p><h2 id='table-of-content'><span>Table of Content</span></h2><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n3559"><a class="md-toc-inner" href="#near-memory-radix-sort-documentation">Near Memory Radix Sort Documentation</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n3564"><a class="md-toc-inner" href="#table-of-content">Table of Content</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n3566"><a class="md-toc-inner" href="#context">Context</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n3568"><a class="md-toc-inner" href="#system-architecture">System Architecture</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3571"><a class="md-toc-inner" href="#processing-system-and-ram">Processing System and RAM</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3575"><a class="md-toc-inner" href="#radix-sort-accelerator-ip-core">Radix Sort Accelerator IP Core</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3590"><a class="md-toc-inner" href="#axi-lite-master-interface">AXI Lite Master Interface</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3605"><a class="md-toc-inner" href="#axi-lite-slave-interface">AXI Lite Slave Interface</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3640"><a class="md-toc-inner" href="#axi-stream-master-interface">AXI Stream Master Interface</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3652"><a class="md-toc-inner" href="#axi-stream-slave-interface">AXI Stream Slave Interface</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3661"><a class="md-toc-inner" href="#dma-controller">DMA Controller</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3665"><a class="md-toc-inner" href="#bram-bank">BRAM Bank</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3667"><a class="md-toc-inner" href="#data-ordering">Data Ordering</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3671"><a class="md-toc-inner" href="#status-and-control-unit-scu">Status and Control Unit (SCU)</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3673"><a class="md-toc-inner" href="#radix-sort-accelerator-main-unit">Radix Sort Accelerator Main Unit</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n3677"><a class="md-toc-inner" href="#dependency-tree">Dependency Tree</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3678"><a class="md-toc-inner" href="#top-level-dependency-tree">Top Level Dependency Tree</a></span><span role="listitem" class="md-toc-item md-toc-h4" data-ref="n3680"><a class="md-toc-inner" href="#radix-sort-main-unit-dependency-tree">Radix Sort Main Unit Dependency Tree</a></span></p></div><h2 id='context'><span>Context</span></h2><p><em><span>Contributors</span></em><span>: Dalta Imam Maulana, Jihwan Cho</span>
+<em><span>Tools</span></em><span>: Vivado 2020.1</span>
+<em><span>Document Version</span></em><span>: July 29th, 2021</span>
+&nbsp;</p><h2 id='system-architecture'><span>System Architecture</span></h2><blockquote><p><span>The architecture overview of near memory radix sort accelerator is described in the section below</span></p></blockquote><h4 id='processing-system-and-ram'><span>Processing System and RAM</span></h4><p><span>Processing system is used as an interface between user and accelerator as shown in the figure below. Meanwhile, RAM is used to store the unsorted data and also act as storage to store sorted data from the accelerator. In this design, processing system is a dedicated ARM processor that is capable of running Linux and PYNQ Framework. User can use PYNQ Framework to control the operation of accelerator by writing an application using Python language.</span></p><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\Level 0.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 1 - System Level 0 Diagram</b></p><h4 id='radix-sort-accelerator-ip-core'><span>Radix Sort Accelerator IP Core</span></h4><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\Radix Sort IP core.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 2 - System Level 1 Diagram</b></p><p><span>Radix Sort Accelerator IP Core consists of 5 modules as shown in the figure above. Those modules are:</span></p><ul><li><strong><span>AXI Lite Master</span></strong><span>: acts as an interface between DMA controller block and AXI DMA block. This module is required since AXI DMA can only be controlled via AXI protocol.</span></li><li><strong><span>AXI Lite Slave</span></strong><span>: receives instructions from processing system block and send the instruction to status and control unit to be decoded.</span></li><li><strong><span>AXI Stream Master</span></strong><span>: responsible for sending sorted result data from BRAM bank to onboard DRAM via AXI DMA module.</span></li><li><strong><span>AXI Stream Slave</span></strong><span>: responsible for receiving unsorted data from onboard DRAM via AXI DMA module.</span></li><li><strong><span>Radix Sort Accelerator Main Unit</span></strong><span>: consists of </span><strong><span>DMA controller</span></strong><span> to control DMA operation, </span><strong><span>data ordering and BRAM controller</span></strong><span> to control dataflow from and to BRAM and sorting unit, </span><strong><span>BRAM bank</span></strong><span> to store sorted and unsorted data, </span><strong><span>sorting unit</span></strong><span> to sort data based on radix sorting algorithm, and </span><strong><span>status and control unit</span></strong><span> to control operation of each module inside the FPGA fabric.</span></li></ul><h4 id='axi-lite-master-interface'><span>AXI Lite Master Interface</span></h4><p><span>AXI Lite Master uses AXI4 Lite protocol. This module is based on Xilinx&#39;s template code generated via Vivado software. This unit is responsible for controlling AXI Direct Memory Access (DMA). This unit is controlled by DMA controller module using the signals below:</span>
+<span>	</span><strong><span>1. Source / Destination Address</span></strong><span> [O_DMA_REG_ADDRESS]</span>
+<span>	</span><strong><span>2. Number of Byte to Transfer</span></strong><span> [O_DMA_NO_OF_TRANSACTION]</span>
+<span>	</span><strong><span>3. Transfer Mode</span></strong><span> [O_DMA_TRANSFER_MODE]</span></p><p><span>DMA operation mode can be set by configuring the transfer mode signal. DMA operation mode that is supported by this module are:</span>
+<span>	</span><span>1. </span><strong><span>Starting AXI DMA</span></strong>
+<span>	</span><span>2. </span><strong><span>Request transfer from DRAM</span></strong><span> (via MM2S channel)</span>
+<span>	</span><span>3. </span><strong><span>Request transfer to DRAM</span></strong><span> (via S2MM channel) </span></p><p><span>In the Vivado, the AXI DMA is configured to use </span><strong><span>Direct Register Mode</span></strong><span> (ref: </span><strong><a href='https://www.xilinx.com/support/documentation/ip_documentation/axi_dma/v7_1/pg021_axi_dma.pdf' target='_blank' class='url'>https://www.xilinx.com/support/documentation/ip_documentation/axi_dma/v7_1/pg021_axi_dma.pdf</a></strong><span>). Therefore, every transaction is initiated via AXI4 Lite write request.</span></p><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\AXI DMA Start.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 3 - Starting AXI DMA Waveform </b></p><p><strong><span>Two AXI4 Lite requests are needed to start AXI DMA</span></strong><span>. The first request is to write the AXI DMA register at address 0x0 with data 0x1. This request will start the MM2S channel of DMA. The second request is to write the AXI DMA register at address 0x30 with data 0x1. This</span>
+<span>request will start the S2MM channel of DMA. The request order in this request is not important.</span></p><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\AXI DMA Read.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 4 - Read from DRAM Request Waveform </b></p><p><strong><span>Two AXI4 Lite requests are needed to request read data from DRAM via AXI DMA</span></strong><span>. The first request is to write the AXI DMA register at address 0x18 with the source address. The</span>
+<span>second request is to write the AXI DMA register at address 0x28 with a number of bytes to</span>
+<span>transfer. This second request will also start the transaction. The request order is important</span>
+<span>since sending request no of byte to transfer will start the transaction.</span></p><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\AXI DMA Write.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 5 - Write to DRAM Request Waveform </b></p><p><strong><span>Two AXI4 Lite requests are needed to request write data to DRAM via AXI DMA</span></strong><span>. The first request is to write the AXI DMA register at address 0x48 with the destination address. The second request is to write the AXI DMA register at address 0x58 with a number of bytes to transfer. This request will also start the transaction. The request order is important since the second request will start the transaction.</span></p><p><strong><span>Note</span></strong><span>: The transaction can be terminated early with AXI_TLAST from the master stream. The no of byte transferred will be updated to no of byte received by DMA. DMA will not return an error and accept this as a valid transfer. Not sending AXI_TLAST or sending data more than byte to transfer will result in DMA error (0x5002).</span></p><p><strong><span>It must be noted that after finishing a write transaction, DMA can be stalled for several clocks</span></strong><span> (ranging from 32-128 clock, it is unknown what caused it, therefore consecutive writes should be spaced and not back-to-back). This event is not happening on read requests. The properties that indicate this event happening is when the AXI Lite master successfully sends a request for the first write to DRAM, and almost immediately requests another transaction after the first one finished (in the span of &lt; 128 clocks usually). The DMA status register will show the right destination address and number of bytes to transfer (usually the register value is fine) but not initiating the request.</span></p><h4 id='axi-lite-slave-interface'><span>AXI Lite Slave Interface</span></h4><p><span>AXI Lite Slave uses AXI4 Lite protocol. This module is based on Xilinx&#39;s template code generated via Vivado software. This unit is responsible to receive/send a control signal from the Processing System (PS). In current design, there are 82 internal registers (7 essential registers, 63 debug registers, and 12 unused registers). This unit sends and receives signals below:</span>
+<span>	</span><strong><span>1. Start Signal</span></strong><span> [I_GLOBAL_START]</span>
+<span>	</span><strong><span>2. Input Address</span></strong><span> [I_ADDR_INPUT]</span>
+<span>	</span><strong><span>3. Instruction Address</span></strong><span> [I_ADDR_INSTRUCTION]</span>
+<span>	</span><strong><span>4. Output Address</span></strong><span> [I_ADDR_OUTPUT]</span>
+<span>	</span><strong><span>5. Debug Signals</span></strong></p><p><span>The register address of each signals is shown in the table below:</span></p><figure><table><thead><tr><th><span>Slv Reg</span></th><th><span>Address</span></th><th><span>Category</span></th><th><span>Read/Write</span></th><th><span>Details</span></th></tr></thead><tbody><tr><td><span>0</span></td><td><span>0x000</span></td><td><span>Start Signal</span></td><td><span>Both</span></td><td><span>This register is used to start the accelerator</span></td></tr><tr><td><span>1</span></td><td><span>0x004</span></td><td><span>Input Address</span></td><td><span>Both</span></td><td><span>This register is used to provide unsorted input data address in DRAM</span></td></tr><tr><td><span>2</span></td><td><span>0x008</span></td><td><span>Instruction Address</span></td><td><span>Both</span></td><td><span>This register is used to provide instruction address in DRAM</span></td></tr><tr><td><span>3</span></td><td><span>0x00C</span></td><td><span>Output Address</span></td><td><span>Both</span></td><td><span>This register is used to provide output data address in DRAM</span></td></tr></tbody></table></figure><p><strong><span>Request order example</span></strong>
+<span>Initial setup:</span>
+<span>	</span><span>1. Write instruction address to register 0x008</span>
+<span>	</span><span>2. Write 0x1 value to register 0x000 (start load instruction process)</span>
+<span>	</span><span>3. Write 0x0 value to register 0x000</span>
+<span>Start sorting process:</span>
+<span>	</span><span>1. Write input address to register 0x004</span>
+<span>	</span><span>2. Write output address to register 0x008</span>
+<span>	</span><span>3. Write 0x1 value to register 0x000 (start sorting process)</span>
+<span>	</span><span>4. Write 0x0 value to register 0x000</span><span>	</span>
+<span>	</span><span>5. Read and wait until Register 0x24 16-bit LSB (program counter) equal to 2</span>
+<span>	</span><span>6. Repeat step 1 for another data</span></p><h4 id='axi-stream-master-interface'><span>AXI Stream Master Interface</span></h4><p><span>AXI Stream Master uses AXI4 Stream protocol. This module is based on Xilinx&#39;s template code generated via Vivado software. This unit is responsible for sending a stream data from BRAM bank to DRAM via AXI DMA. This module has an internal buffer (queue) with size of 1024x128 bit.</span></p><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\AXIS Master.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 6 - AXI Stream Master Interface</b></p><p><span>After AXI Lite master request write transaction to DRAM to AXI DMA unit, AXI Stream master will assert TVALID along with the corresponding TDATA. If the slave (AXI DMA) reply with TREADY signal, the data will be transferred to DRAM and master can send the next data. But, master shouldn&#39;t de-assert TVALID signal or change TDATA before slave assert TREADY signal.</span></p><p><span>When both TVALID and TREADY signal are asserted, data will be sent to DRAM. Therefore, master can proceed to next data transfer. Master can also de-assert TVALID signal after a transaction to stall the transaction if necessary (in case of empty queue). But, it should be noted that if TVALID signal value is low for a long time, DMA error may happen (error 0x5002).</span></p><p><strong><span>Note:</span></strong><span> master should always asserts TLAST signal to indicate the last data packet or DMA will return an error and halt the process.</span></p><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\DMA Start.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 7 - Writing Data to DRAM via AXI DMA Waveform (Start)</b></p><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\DMA end.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 8 - Writing Data to DRAM via AXI DMA Waveform (End)</b></p><p><span>Figure above shows the process of writing data to DRAM via AXI DMA. When transaction is complete, AXI stream master will asserts </span><strong><span>DATA_SEND_DONE</span></strong><span> signal to the status and control unit to indicate that the data transfer has been done successfully. It should be noted that it is forbidden to do another DMA request in the middle of transaction. If there is another DMA request in the middle of transaction, DMA will return an error and halt the process. In case of FIFO full, the unit that wants to send data to DRAM should be paused and wait until FIFO is not full (FIFO full signal de-asserted).</span></p><h4 id='axi-stream-slave-interface'><span>AXI Stream Slave Interface</span></h4><p><span>AXI Stream Slave uses AXI4 Stream protocol. This module is based on Xilinx&#39;s template code generated via Vivado software. This unit is responsible for receiving stream data from DRAM via AXI DMA. This unit has an internal buffer (queue) with the size of 1024x128 bit.</span></p><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\AXIS Slave.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 8 - AXI Stream Slave Interface</b></p><p><span>After requesting read data from DRAM to DMA, the DMA will assert TVALID along with the</span>
+<span>corresponding TDATA. If the slave replies with TREADY signal, then the data transmission is</span>
+<span>success and Stream Master can send next data. Data should only be sampled when both TVALID and TREADY signal is HIGH. Therefore, stream_fifo_write_enable logic is TVALID</span>
+<span>&amp;&amp; TREADY. This also mean that the data are being queued into the Stream Queue.</span></p><p><span>Stream Dequeue should be asserted HIGH when data is needed and kept HIGH as long as</span>
+<span>STREAM_VALID is LOW or more data is needed. If the Stream Queue is FULL, then the</span>
+<span>TREADY signal will go LOW and this will pause the transaction on the AXI side until some unit</span>
+<span>read data from the queue. If the Stream Queue is EMPTY, then STREAM_VALID will kept</span>
+<span>LOW indicating that there is no data in the stream.</span></p><p><strong><span>Note:</span></strong><span> TLAST is an optional signal for stream slaves and not used in current implementation. AXI Stream Slave is one-way communication, the state 0 is indicating IDLE and 1 is indicating RECEIVING data.</span></p><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\DMA Receive.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 9 - Receiving Data form DRAM via AXI DMA Waveform</b></p><h4 id='dma-controller'><span>DMA Controller</span></h4><p><span>DMA controller is a module that forwards request from Status and Control Unit (SCU) to AXI Lite Master unit. This module receives start pulse. source/destination address, number of byte to transfer, number of received transaction (only used when writing data to DRAM), DMA operation (0: Starting DMA, 1: Read DMA, 2: Write DMA).</span></p><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\DMA controller.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 10 - DMA Controller Waveform Example</b></p><h4 id='bram-bank'><span>BRAM Bank</span></h4><p><span>BRAM bank receives several memory address pointers and receive/send data to/from corresponding BRAM. BRAM bank consists of three main section which are Instruction BRAM, Input Data BRAM, and Output Data BRAM. In current design, Instruction BRAM has 1024 address space with each address can store 64-bit data. Meanwhile, Input and Output Data BRAM has 32768 address space with each address space can store 128-bit data.</span></p><h4 id='data-ordering'><span>Data Ordering</span></h4><p><img src="C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\Data Ordering.jpg" referrerpolicy="no-referrer"></p><p align="center"><b>Figure 11 - Data Ordering Block Diagram</b></p><p><span>Data ordering module consists of:</span>
+<strong><span>1. Load Instruction Module</span></strong>
+<span>This module forward data from AXI Stream Slave to instruction BRAM. This module also converts 128-bit data stream into 64-bit stream of data. In current design, this module is used to load exactly 1024 instruction from DRAM. The number of instruction can be changed by changing the </span><strong><span>MAXINSTCOUNT</span></strong><span> in the </span><strong><span>load_instruction_module.v</span></strong><span> file.</span>
+<strong><span>2. Load Input Module</span></strong>
+<span>This module forward data from AXI Stream Slave to input data BRAM without changing the stream bitwidth.</span>
+<strong><span>3. Stream Out Module</span></strong>
+<span>This module is used to generate 128-bit stream data from output BRAM. This data will be sent to DRAM via AXI Stream Master module.</span></p><h4 id='status-and-control-unit-scu'><span>Status and Control Unit (SCU)</span></h4><p>&nbsp;</p><h4 id='radix-sort-accelerator-main-unit'><span>Radix Sort Accelerator Main Unit</span></h4><blockquote><p><strong><span>Please update this part  ^^</span></strong></p></blockquote><p>&nbsp;</p><h2 id='dependency-tree'><span>Dependency Tree</span></h2><h4 id='top-level-dependency-tree'><span>Top Level Dependency Tree</span></h4><div class="md-diagram-panel md-fences-adv-panel"><svg id="mermaidChart62" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="181" style="max-width: 2304.11px; height: 221px;" viewBox="0 0 2304.109375 181" class="md-require-zoom-fix"><style>#mermaidChart62{font-family:sans-serif;font-size:16px;fill:#333;}#mermaidChart62 .error-icon{fill:#552222;}#mermaidChart62 .error-text{fill:#552222;stroke:#552222;}#mermaidChart62 .edge-thickness-normal{stroke-width:2px;}#mermaidChart62 .edge-thickness-thick{stroke-width:3.5px;}#mermaidChart62 .edge-pattern-solid{stroke-dasharray:0;}#mermaidChart62 .edge-pattern-dashed{stroke-dasharray:3;}#mermaidChart62 .edge-pattern-dotted{stroke-dasharray:2;}#mermaidChart62 .marker{fill:#333333;}#mermaidChart62 .marker.cross{stroke:#333333;}#mermaidChart62 svg{font-family:sans-serif;font-size:16px;}#mermaidChart62 .label{font-family:sans-serif;color:#333;}#mermaidChart62 .label text{fill:#333;}#mermaidChart62 .node rect,#mermaidChart62 .node circle,#mermaidChart62 .node ellipse,#mermaidChart62 .node polygon,#mermaidChart62 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaidChart62 .node .label{text-align:center;}#mermaidChart62 .node.clickable{cursor:pointer;}#mermaidChart62 .arrowheadPath{fill:#333333;}#mermaidChart62 .edgePath .path{stroke:#333333;stroke-width:1.5px;}#mermaidChart62 .flowchart-link{stroke:#333333;fill:none;}#mermaidChart62 .edgeLabel{background-color:#e8e8e8;text-align:center;}#mermaidChart62 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#mermaidChart62 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaidChart62 .cluster text{fill:#333;}#mermaidChart62 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:sans-serif;font-size:12px;background:hsl(80,100%,96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaidChart62:root{--mermaid-font-family:sans-serif;}#mermaidChart62:root{--mermaid-alt-font-family:sans-serif;}#mermaidChart62 flowchart{fill:apa;}</style><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-id1 LE-id2" id="L-id1-id2" style="opacity: 1;"><path class="path" d="M1054.01953125,47.06441010324826L304.6640625,90.5L304.6640625,115.5" marker-end="url(#arrowhead802)" style="fill:none"></path><defs><marker id="arrowhead802" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id1 LE-id3" id="L-id1-id3" style="opacity: 1;"><path class="path" d="M1076.7378270348836,65.5L941.7578125,90.5L941.7578125,115.5" marker-end="url(#arrowhead803)" style="fill:none"></path><defs><marker id="arrowhead803" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id1 LE-id4" id="L-id1-id4" style="opacity: 1;"><path class="path" d="M1387.1918604651164,65.5L1522.171875,90.5L1522.171875,115.5" marker-end="url(#arrowhead804)" style="fill:none"></path><defs><marker id="arrowhead804" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id1 LE-id5" id="L-id1-id5" style="opacity: 1;"><path class="path" d="M1409.91015625,48.38334125193016L2054.1328125,90.5L2054.1328125,115.5" marker-end="url(#arrowhead805)" style="fill:none"></path><defs><marker id="arrowhead805" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="flowchart-id1-992" transform="translate(1231.96484375,36.75)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-177.9453125" y="-28.75" width="355.890625" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-160.7578125,-18.75)"><foreignObject width="321.515625" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">radix_sort_accelerator_v1_0.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id2-993" transform="translate(304.6640625,144.25)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-296.6640625" y="-28.75" width="593.328125" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-279.4765625,-18.75)"><foreignObject width="558.9609375" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">radix_sort_accelerator_v1_0_S00_AXI_FROM_PS.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id3-995" transform="translate(941.7578125,144.25)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-290.4296875" y="-28.75" width="580.859375" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-273.2421875,-18.75)"><foreignObject width="546.4921875" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">radix_sort_accelerator_v1_0_M00_AXI_TO_DMA.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id4-997" transform="translate(1522.171875,144.25)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-239.984375" y="-28.75" width="479.96875" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-222.796875,-18.75)"><foreignObject width="445.59375" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">radix_sort_accelerator_v1_0_S00_AXIS.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id5-999" transform="translate(2054.1328125,144.25)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-241.9765625" y="-28.75" width="483.953125" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-224.7890625,-18.75)"><foreignObject width="449.578125" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">radix_sort_accelerator_v1_0_M00_AXIS.v</div></foreignObject></g></g></g></g></g></g></svg></div><h4 id='radix-sort-main-unit-dependency-tree'><span>Radix Sort Main Unit Dependency Tree</span></h4><div class="md-diagram-panel md-fences-adv-panel"><svg id="mermaidChart63" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="288.5" style="max-width: 1772.37px; height: 328.5px;" viewBox="0 0 1772.3671875 288.5" class="md-require-zoom-fix"><style>#mermaidChart63{font-family:sans-serif;font-size:16px;fill:#333;}#mermaidChart63 .error-icon{fill:#552222;}#mermaidChart63 .error-text{fill:#552222;stroke:#552222;}#mermaidChart63 .edge-thickness-normal{stroke-width:2px;}#mermaidChart63 .edge-thickness-thick{stroke-width:3.5px;}#mermaidChart63 .edge-pattern-solid{stroke-dasharray:0;}#mermaidChart63 .edge-pattern-dashed{stroke-dasharray:3;}#mermaidChart63 .edge-pattern-dotted{stroke-dasharray:2;}#mermaidChart63 .marker{fill:#333333;}#mermaidChart63 .marker.cross{stroke:#333333;}#mermaidChart63 svg{font-family:sans-serif;font-size:16px;}#mermaidChart63 .label{font-family:sans-serif;color:#333;}#mermaidChart63 .label text{fill:#333;}#mermaidChart63 .node rect,#mermaidChart63 .node circle,#mermaidChart63 .node ellipse,#mermaidChart63 .node polygon,#mermaidChart63 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaidChart63 .node .label{text-align:center;}#mermaidChart63 .node.clickable{cursor:pointer;}#mermaidChart63 .arrowheadPath{fill:#333333;}#mermaidChart63 .edgePath .path{stroke:#333333;stroke-width:1.5px;}#mermaidChart63 .flowchart-link{stroke:#333333;fill:none;}#mermaidChart63 .edgeLabel{background-color:#e8e8e8;text-align:center;}#mermaidChart63 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#mermaidChart63 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaidChart63 .cluster text{fill:#333;}#mermaidChart63 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:sans-serif;font-size:12px;background:hsl(80,100%,96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaidChart63:root{--mermaid-font-family:sans-serif;}#mermaidChart63:root{--mermaid-alt-font-family:sans-serif;}#mermaidChart63 flowchart{fill:apa;}</style><g><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath LS-id1 LE-id2" id="L-id1-id2" style="opacity: 1;"><path class="path" d="M611.046875,53.53602404593851L161.9453125,90.5L161.9453125,115.5" marker-end="url(#arrowhead825)" style="fill:none"></path><defs><marker id="arrowhead825" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id1 LE-id3" id="L-id1-id3" style="opacity: 1;"><path class="path" d="M631.0590479651163,65.5L471.1171875,90.5L471.1171875,115.5" marker-end="url(#arrowhead826)" style="fill:none"></path><defs><marker id="arrowhead826" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id1 LE-id4" id="L-id1-id4" style="opacity: 1;"><path class="path" d="M814.9921875,65.5L814.9921875,90.5L814.9921875,115.5" marker-end="url(#arrowhead827)" style="fill:none"></path><defs><marker id="arrowhead827" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id1 LE-id5" id="L-id1-id5" style="opacity: 1;"><path class="path" d="M1018.9375,55.97114726027397L1385.3046875,90.5L1385.3046875,115.5" marker-end="url(#arrowhead828)" style="fill:none"></path><defs><marker id="arrowhead828" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id1 LE-id6" id="L-id1-id6" style="opacity: 1;"><path class="path" d="M1018.9375,49.98720518867925L1643.1171875,90.5L1643.1171875,115.5" marker-end="url(#arrowhead829)" style="fill:none"></path><defs><marker id="arrowhead829" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id2 LE-id7" id="L-id2-id7" style="opacity: 1;"><path class="path" d="M161.9453125,173L161.9453125,198L161.9453125,223" marker-end="url(#arrowhead830)" style="fill:none"></path><defs><marker id="arrowhead830" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id4 LE-id8" id="L-id4-id8" style="opacity: 1;"><path class="path" d="M714.4140625,160.40976973914667L480.453125,198L480.453125,223" marker-end="url(#arrowhead831)" style="fill:none"></path><defs><marker id="arrowhead831" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id4 LE-id9" id="L-id4-id9" style="opacity: 1;"><path class="path" d="M814.9921875,173L814.9921875,198L814.9921875,223" marker-end="url(#arrowhead832)" style="fill:none"></path><defs><marker id="arrowhead832" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id4 LE-id10" id="L-id4-id10" style="opacity: 1;"><path class="path" d="M915.5703125,161.65999094248477L1125.5078125,198L1125.5078125,223" marker-end="url(#arrowhead833)" style="fill:none"></path><defs><marker id="arrowhead833" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath LS-id5 LE-id11" id="L-id5-id11" style="opacity: 1;"><path class="path" d="M1385.3046875,173L1385.3046875,198L1385.3046875,223" marker-end="url(#arrowhead834)" style="fill:none"></path><defs><marker id="arrowhead834" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><rect rx="0" ry="0" width="0" height="0"></rect><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span></span></div></foreignObject></g></g></g><g class="nodes"><g class="node default" id="flowchart-id1-1020" transform="translate(814.9921875,36.75)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-203.9453125" y="-28.75" width="407.890625" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-186.7578125,-18.75)"><foreignObject width="373.5234375" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">radix_sort_accelerator_main_unit.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id2-1021" transform="translate(161.9453125,144.25)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-153.9453125" y="-28.75" width="307.890625" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-136.7578125,-18.75)"><foreignObject width="273.515625" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">status_and_control_unit.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id3-1023" transform="translate(471.1171875,144.25)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-105.2265625" y="-28.75" width="210.453125" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-88.0390625,-18.75)"><foreignObject width="176.0859375" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">dma_controller.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id4-1025" transform="translate(814.9921875,144.25)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-100.578125" y="-28.75" width="201.15625" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-83.390625,-18.75)"><foreignObject width="166.78125" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">data_ordering.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id5-1027" transform="translate(1385.3046875,144.25)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-86.5625" y="-28.75" width="173.125" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-69.375,-18.75)"><foreignObject width="138.75" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">bram_bank.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id6-1029" transform="translate(1643.1171875,144.25)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-121.25" y="-28.75" width="242.5" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-104.0625,-18.75)"><foreignObject width="208.125" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">radix_sorting_unit.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id7-1031" transform="translate(161.9453125,251.75)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-111.90625" y="-28.75" width="223.8125" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-94.71875,-18.75)"><foreignObject width="189.4453125" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">scu_bram_bank.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id8-1033" transform="translate(480.453125,251.75)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-156.6015625" y="-28.75" width="313.203125" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-139.4140625,-18.75)"><foreignObject width="278.8359375" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">load_instruction_module.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id9-1035" transform="translate(814.9921875,251.75)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-127.9375" y="-28.75" width="255.875" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-110.75,-18.75)"><foreignObject width="221.5078125" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">load_input_module.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id10-1037" transform="translate(1125.5078125,251.75)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-132.578125" y="-28.75" width="265.15625" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-115.390625,-18.75)"><foreignObject width="230.7890625" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">stream_out_module.v</div></foreignObject></g></g></g><g class="node default" id="flowchart-id11-1039" transform="translate(1385.3046875,251.75)" style="opacity: 1;"><rect rx="28.75" ry="28.75" x="-77.21875" y="-28.75" width="154.4375" height="57.5" class="label-container"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-60.03125,-18.75)"><foreignObject width="120.0703125" height="37.5"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">bram_tdp.v</div></foreignObject></g></g></g></g></g></g></svg></div><p>&nbsp;</p></div></div>
+</body>
+</html>
