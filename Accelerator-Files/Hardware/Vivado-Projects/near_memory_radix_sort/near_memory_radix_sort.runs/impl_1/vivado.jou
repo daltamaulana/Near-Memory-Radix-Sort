@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Jun 30 10:40:38 2021
+# Process ID: 6816
+# Current directory: C:/Projects/Accelerator/near-memory-radix-sort/Hardware/near_memory_radix_sort/near_memory_radix_sort.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/Projects/Accelerator/near-memory-radix-sort/Hardware/near_memory_radix_sort/near_memory_radix_sort.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Projects/Accelerator/near-memory-radix-sort/Hardware/near_memory_radix_sort/near_memory_radix_sort.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

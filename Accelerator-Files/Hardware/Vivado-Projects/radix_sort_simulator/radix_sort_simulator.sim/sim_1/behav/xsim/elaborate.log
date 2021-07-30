@@ -1,0 +1,13 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 60f294abebd94433b9e53fde16757c6b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_radix_sort_accelerator_v1_0_behav xil_defaultlib.tb_radix_sort_accelerator_v1_0 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 32 for port 'I_BRAM_DEBUG_ADDR' [C:/Projects/Accelerator/near-memory-radix-sort/Hardware/radix_sort_simulator/radix_sort_simulator.srcs/sources_1/imports/radix_sort_accelerator_1.0/hdl/radix_sort_accelerator_v1_0.v:262]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 64 for port 'O_DATA_LOGGER' [C:/Projects/Accelerator/near-memory-radix-sort/Hardware/radix_sort_simulator/radix_sort_simulator.srcs/sources_1/imports/radix_sort_accelerator_1.0/hdl/radix_sort_accelerator_v1_0.v:263]
+WARNING: [VRFC 10-3091] actual bit length 14 differs from formal bit length 11 for port 'I_BRAM_DEBUG_ADDR' [C:/Projects/Accelerator/near-memory-radix-sort/Hardware/radix_sort_simulator/radix_sort_simulator.srcs/sources_1/imports/radix_sort_accelerator_1.0/src/radix_sort_accelerator_main_unit.v:368]
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 10 for port 'I_SORT_EVEN_POINTER' [C:/Projects/Accelerator/near-memory-radix-sort/Hardware/radix_sort_simulator/radix_sort_simulator.srcs/sources_1/imports/radix_sort_accelerator_1.0/src/radix_sort_accelerator_main_unit.v:399]
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 10 for port 'I_SORT_ODD_POINTER' [C:/Projects/Accelerator/near-memory-radix-sort/Hardware/radix_sort_simulator/radix_sort_simulator.srcs/sources_1/imports/radix_sort_accelerator_1.0/src/radix_sort_accelerator_main_unit.v:405]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

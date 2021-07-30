@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_data_shifter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_data_shifter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1431166fs"></ZoomStartTime>
+      <ZoomEndTime time="1921767fs"></ZoomEndTime>
+      <Cursor1Time time="1840000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="302"></NameColumnWidth>
+      <ValueColumnWidth column_width="140"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/tb_data_shifter/UUT/I_ACLK" type="logic">
+      <obj_property name="ElementShortName">I_ACLK</obj_property>
+      <obj_property name="ObjectShortName">I_ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/I_ARESETN" type="logic">
+      <obj_property name="ElementShortName">I_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">I_ARESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/I_START" type="logic">
+      <obj_property name="ElementShortName">I_START</obj_property>
+      <obj_property name="ObjectShortName">I_START</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/I_DATA_FLAG" type="logic">
+      <obj_property name="ElementShortName">I_DATA_FLAG</obj_property>
+      <obj_property name="ObjectShortName">I_DATA_FLAG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/I_DATA_PATTERN" type="array">
+      <obj_property name="ElementShortName">I_DATA_PATTERN[2:0]</obj_property>
+      <obj_property name="ObjectShortName">I_DATA_PATTERN[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/I_ZERO_COUNT" type="array">
+      <obj_property name="ElementShortName">I_ZERO_COUNT[9:0]</obj_property>
+      <obj_property name="ObjectShortName">I_ZERO_COUNT[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/I_ONE_COUNT" type="array">
+      <obj_property name="ElementShortName">I_ONE_COUNT[9:0]</obj_property>
+      <obj_property name="ObjectShortName">I_ONE_COUNT[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/I_BRAM_DATA" type="array">
+      <obj_property name="ElementShortName">I_BRAM_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">I_BRAM_DATA[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/O_VALID" type="logic">
+      <obj_property name="ElementShortName">O_VALID</obj_property>
+      <obj_property name="ObjectShortName">O_VALID</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/O_CACHE_DATA" type="array">
+      <obj_property name="ElementShortName">O_CACHE_DATA[127:0]</obj_property>
+      <obj_property name="ObjectShortName">O_CACHE_DATA[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/r_start_delay" type="logic">
+      <obj_property name="ElementShortName">r_start_delay</obj_property>
+      <obj_property name="ObjectShortName">r_start_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/w_start_pulse" type="logic">
+      <obj_property name="ElementShortName">w_start_pulse</obj_property>
+      <obj_property name="ObjectShortName">w_start_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/r_state_machine" type="array">
+      <obj_property name="ElementShortName">r_state_machine[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_state_machine[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/idx" type="array">
+      <obj_property name="ElementShortName">idx[31:0]</obj_property>
+      <obj_property name="ObjectShortName">idx[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/r_data_pattern" type="array">
+      <obj_property name="ElementShortName">r_data_pattern[2:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_pattern[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/r_data_cache" type="array">
+      <obj_property name="ElementShortName">r_data_cache[0:1][127:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_cache[0:1][127:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/r_data_counter" type="array">
+      <obj_property name="ElementShortName">r_data_counter[9:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_counter[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_data_shifter/UUT/r_data_valid" type="logic">
+      <obj_property name="ElementShortName">r_data_valid</obj_property>
+      <obj_property name="ObjectShortName">r_data_valid</obj_property>
+   </wvobject>
+</wave_config>

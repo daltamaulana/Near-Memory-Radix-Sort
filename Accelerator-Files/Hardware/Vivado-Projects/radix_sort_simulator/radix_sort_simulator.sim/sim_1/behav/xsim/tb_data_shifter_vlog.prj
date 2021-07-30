@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../radix_sort_simulator.srcs/sim_1/imports/radix_sort/data_shifter.v" \
+"../../../../radix_sort_simulator.srcs/sim_1/imports/radix_sort/tb_data_shifter.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

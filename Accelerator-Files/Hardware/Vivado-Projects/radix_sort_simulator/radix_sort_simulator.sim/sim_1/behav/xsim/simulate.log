@@ -1,0 +1,26 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Start of Testbench
+ << [DMA controller] single write transaction to address 0x00000000, data: 00000001
+ << [DMA controller] single write transaction to address 0x00000030, data: 00000001
+Setup Instruction
+ >> [PS write] slave register          2 [Instruction Address] at 008, data = 80000000
+ >> [PS write] slave register          0 [Global Start] at 000, data = 00000001
+ >> [PS write] slave register          0 [Global Start] at 000, data = 00000000
+End of Testbench
+ << [DMA controller] single write transaction to address 0x00000018, data: 80000000
+ << [DMA controller] single write transaction to address 0x00000028, data: 00002000
+ >> [AXI Stream From DMA] sending        8192 bytes of data in         512 iteration
+ >> [AXI Stream From DMA] done
+ >> [PS write] slave register          1 [Input Address] at 004, data = a0000000
+ >> [PS write] slave register          3 [Force Load Instruction] at 00c, data = b0000000
+ >> [PS write] slave register          0 [Global Start] at 000, data = 00000001
+ >> [PS write] slave register          0 [Global Start] at 000, data = 00000000
+ << [DMA controller] single write transaction to address 0x00000018, data: a0000000
+ << [DMA controller] single write transaction to address 0x00000028, data: 00004000
+ >> [AXI Stream From DMA] sending       16384 bytes of data in        1024 iteration
+ >> [AXI Stream From DMA] done
+ << [DMA controller] single write transaction to address 0x00000018, data: a0000000
+ << [DMA controller] single write transaction to address 0x00000028, data: 00004000
+ >> [AXI Stream From DMA] sending       16384 bytes of data in        1024 iteration
+ >> [AXI Stream From DMA] done

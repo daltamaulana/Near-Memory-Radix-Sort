@@ -1,0 +1,1237 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 30 10:32:19 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 46) to (Rev. 47)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jun 24 14:47:23 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 45) to (Rev. 46)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jun 24 13:36:36 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 44) to (Rev. 45)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jun 24 12:01:17 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 43) to (Rev. 44)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jun 24 05:16:35 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 42) to (Rev. 43)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jun 24 02:42:39 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 41) to (Rev. 42)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jun 24 02:29:37 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 40) to (Rev. 41)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 23:58:42 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 39) to (Rev. 40)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 23:43:01 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 38) to (Rev. 39)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 20:09:22 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 37) to (Rev. 38)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 18:00:18 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 36) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 17:43:39 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 35) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 17:04:55 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 34) to (Rev. 35)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 16:44:07 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 33) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 16:18:23 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 32) to (Rev. 33)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 15:39:20 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 31) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 14:51:53 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 13:12:51 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 07:48:15 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 07:37:15 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 07:26:16 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 07:16:00 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 25) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Jun 23 05:42:08 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 23) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 07:21:42 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 22) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 06:49:01 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 21) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 06:14:12 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 06:09:18 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 05:29:45 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 04:48:55 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 04:23:37 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 04:00:50 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 03:56:41 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 03:15:11 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 02:46:31 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 02:38:29 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 02:22:53 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 01:30:38 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun 22 01:21:27 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0 (Rev. 9)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Jun 19 23:51:16 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Jun 19 23:20:15 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Jun 19 20:43:17 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_2_axi_data_mover_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_2_axi_data_mover_0_1 (xilinx.com:user:axi_data_mover:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Jun 19 17:17:22 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Jun 19 17:02:39 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Jun 19 16:49:11 2021
+| Host         : SEED-LAB-DLT running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu7ev-ffvc1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_radix_sort_accelerat_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_radix_sort_accelerat_0_1 (xilinx.com:user:radix_sort_accelerator:1.0) from (Rev. 1) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_radix_sort_accelerat_0_1'.
+
+
+-Upgrade has removed interface 'M00_AXI'
+
+-Upgrade has removed interface 'M00_AXI_CLK'
+
+-Upgrade has removed interface 'M00_AXI_RST'
+
+-Upgrade has removed interface 'S00_AXI'
+
+-Upgrade has removed interface 'S00_AXI_CLK'
+
+-Upgrade has removed interface 'S00_AXI_RST'
+
+-Upgrade has added interface 'm00_axi_to_dma' (xilinx.com:interface:aximm:1.0)
+
+-Upgrade has added interface 'm00_axi_to_dma_aclk' (xilinx.com:signal:clock:1.0)
+
+-Upgrade has added interface 'm00_axi_to_dma_aresetn' (xilinx.com:signal:reset:1.0)
+
+-Upgrade has added interface 'pl_to_ps_irq' (xilinx.com:signal:interrupt:1.0)
+
+-Upgrade has added interface 's00_axi_from_ps' (xilinx.com:interface:aximm:1.0)
+
+-Upgrade has added interface 's00_axi_from_ps_aclk' (xilinx.com:signal:clock:1.0)
+
+-Upgrade has added interface 's00_axi_from_ps_aresetn' (xilinx.com:signal:reset:1.0)
+
+-Upgrade has removed address block 'S00_AXI/S00_AXI_reg'
+
+-Upgrade has added address block 's00_axi_from_ps/reg0'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_radix_sort_accelerat_0_1'. These changes may impact your design.
+
+
+-Upgraded port 'm00_axis_tdata' width 128 differs from original width 32
+
+-Upgraded port 'm00_axis_tstrb' width 16 differs from original width 4
+
+-Upgraded port 's00_axis_tdata' width 128 differs from original width 32
+
+-Upgraded port 's00_axis_tstrb' width 16 differs from original width 4
+
+-Upgrade has removed port 'm00_axi_aclk'
+
+-Upgrade has removed port 'm00_axi_araddr'
+
+-Upgrade has removed port 'm00_axi_aresetn'
+
+-Upgrade has removed port 'm00_axi_arprot'
+
+-Upgrade has removed port 'm00_axi_arready'
+
+-Upgrade has removed port 'm00_axi_arvalid'
+
+-Upgrade has removed port 'm00_axi_awaddr'
+
+-Upgrade has removed port 'm00_axi_awprot'
+
+-Upgrade has removed port 'm00_axi_awready'
+
+-Upgrade has removed port 'm00_axi_awvalid'
+
+-Upgrade has removed port 'm00_axi_bready'
+
+-Upgrade has removed port 'm00_axi_bresp'
+
+-Upgrade has removed port 'm00_axi_bvalid'
+
+-Upgrade has removed port 'm00_axi_error'
+
+-Upgrade has removed port 'm00_axi_init_axi_txn'
+
+-Upgrade has removed port 'm00_axi_rdata'
+
+-Upgrade has removed port 'm00_axi_rready'
+
+-Upgrade has removed port 'm00_axi_rresp'
+
+-Upgrade has removed port 'm00_axi_rvalid'
+
+-Upgrade has removed port 'm00_axi_txn_done'
+
+-Upgrade has removed port 'm00_axi_wdata'
+
+-Upgrade has removed port 'm00_axi_wready'
+
+-Upgrade has removed port 'm00_axi_wstrb'
+
+-Upgrade has removed port 'm00_axi_wvalid'
+
+-Upgrade has removed port 's00_axi_aclk'
+
+-Upgrade has removed port 's00_axi_araddr'
+
+-Upgrade has removed port 's00_axi_aresetn'
+
+-Upgrade has removed port 's00_axi_arprot'
+
+-Upgrade has removed port 's00_axi_arready'
+
+-Upgrade has removed port 's00_axi_arvalid'
+
+-Upgrade has removed port 's00_axi_awaddr'
+
+-Upgrade has removed port 's00_axi_awprot'
+
+-Upgrade has removed port 's00_axi_awready'
+
+-Upgrade has removed port 's00_axi_awvalid'
+
+-Upgrade has removed port 's00_axi_bready'
+
+-Upgrade has removed port 's00_axi_bresp'
+
+-Upgrade has removed port 's00_axi_bvalid'
+
+-Upgrade has removed port 's00_axi_rdata'
+
+-Upgrade has removed port 's00_axi_rready'
+
+-Upgrade has removed port 's00_axi_rresp'
+
+-Upgrade has removed port 's00_axi_rvalid'
+
+-Upgrade has removed port 's00_axi_wdata'
+
+-Upgrade has removed port 's00_axi_wready'
+
+-Upgrade has removed port 's00_axi_wstrb'
+
+-Upgrade has removed port 's00_axi_wvalid'
+
+-Upgrade has added port 'm00_axi_to_dma_aclk'
+
+-Upgrade has added port 'm00_axi_to_dma_araddr'
+
+-Upgrade has added port 'm00_axi_to_dma_aresetn'
+
+-Upgrade has added port 'm00_axi_to_dma_arprot'
+
+-Upgrade has added port 'm00_axi_to_dma_arready'
+
+-Upgrade has added port 'm00_axi_to_dma_arvalid'
+
+-Upgrade has added port 'm00_axi_to_dma_awaddr'
+
+-Upgrade has added port 'm00_axi_to_dma_awprot'
+
+-Upgrade has added port 'm00_axi_to_dma_awready'
+
+-Upgrade has added port 'm00_axi_to_dma_awvalid'
+
+-Upgrade has added port 'm00_axi_to_dma_bready'
+
+-Upgrade has added port 'm00_axi_to_dma_bresp'
+
+-Upgrade has added port 'm00_axi_to_dma_bvalid'
+
+-Upgrade has added port 'm00_axi_to_dma_rdata'
+
+-Upgrade has added port 'm00_axi_to_dma_rready'
+
+-Upgrade has added port 'm00_axi_to_dma_rresp'
+
+-Upgrade has added port 'm00_axi_to_dma_rvalid'
+
+-Upgrade has added port 'm00_axi_to_dma_wdata'
+
+-Upgrade has added port 'm00_axi_to_dma_wready'
+
+-Upgrade has added port 'm00_axi_to_dma_wstrb'
+
+-Upgrade has added port 'm00_axi_to_dma_wvalid'
+
+-Upgrade has added port 'pl_to_ps_irq'
+
+-Upgrade has added port 's00_axi_from_ps_aclk'
+
+-Upgrade has added port 's00_axi_from_ps_araddr'
+
+-Upgrade has added port 's00_axi_from_ps_aresetn'
+
+-Upgrade has added port 's00_axi_from_ps_arprot'
+
+-Upgrade has added port 's00_axi_from_ps_arready'
+
+-Upgrade has added port 's00_axi_from_ps_arvalid'
+
+-Upgrade has added port 's00_axi_from_ps_awaddr'
+
+-Upgrade has added port 's00_axi_from_ps_awprot'
+
+-Upgrade has added port 's00_axi_from_ps_awready'
+
+-Upgrade has added port 's00_axi_from_ps_awvalid'
+
+-Upgrade has added port 's00_axi_from_ps_bready'
+
+-Upgrade has added port 's00_axi_from_ps_bresp'
+
+-Upgrade has added port 's00_axi_from_ps_bvalid'
+
+-Upgrade has added port 's00_axi_from_ps_rdata'
+
+-Upgrade has added port 's00_axi_from_ps_rready'
+
+-Upgrade has added port 's00_axi_from_ps_rresp'
+
+-Upgrade has added port 's00_axi_from_ps_rvalid'
+
+-Upgrade has added port 's00_axi_from_ps_wdata'
+
+-Upgrade has added port 's00_axi_from_ps_wready'
+
+-Upgrade has added port 's00_axi_from_ps_wstrb'
+
+-Upgrade has added port 's00_axi_from_ps_wvalid'
+
+
+4. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'C_S00_AXIS_TDATA_WIDTH' from '128' to '32' has been ignored for IP 'design_1_radix_sort_accelerat_0_1'
+
+An attempt to modify the value of disabled parameter 'C_M00_AXIS_TDATA_WIDTH' from '128' to '32' has been ignored for IP 'design_1_radix_sort_accelerat_0_1'
+
+Parameter 'C_M00_AXIS_START_COUNT' is no longer present on the upgraded IP 'design_1_radix_sort_accelerat_0_1', and cannot be set to '32'
+
+Parameter 'C_S00_AXI_DATA_WIDTH' is no longer present on the upgraded IP 'design_1_radix_sort_accelerat_0_1', and cannot be set to '32'
+
+Parameter 'C_S00_AXI_ADDR_WIDTH' is no longer present on the upgraded IP 'design_1_radix_sort_accelerat_0_1', and cannot be set to '4'
+
+Parameter 'C_M00_AXI_START_DATA_VALUE' is no longer present on the upgraded IP 'design_1_radix_sort_accelerat_0_1', and cannot be set to '0xAA000000'
+
+Parameter 'C_M00_AXI_TARGET_SLAVE_BASE_ADDR' is no longer present on the upgraded IP 'design_1_radix_sort_accelerat_0_1', and cannot be set to '0x40000000'
+
+Parameter 'C_M00_AXI_ADDR_WIDTH' is no longer present on the upgraded IP 'design_1_radix_sort_accelerat_0_1', and cannot be set to '32'
+
+Parameter 'C_M00_AXI_DATA_WIDTH' is no longer present on the upgraded IP 'design_1_radix_sort_accelerat_0_1', and cannot be set to '32'
+
+Parameter 'C_M00_AXI_TRANSACTIONS_NUM' is no longer present on the upgraded IP 'design_1_radix_sort_accelerat_0_1', and cannot be set to '4'
+
+
+5. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:user:radix_sort_accelerator:1.0 -user_name design_1_radix_sort_accelerat_0_1
+set_property -dict "\
+  CONFIG.C_M00_AXIS_TDATA_WIDTH {32} \
+  CONFIG.C_S00_AXIS_TDATA_WIDTH {32} \
+  CONFIG.C_S00_AXI_BASEADDR {0xFFFFFFFF} \
+  CONFIG.C_S00_AXI_HIGHADDR {0x00000000} \
+  CONFIG.Component_Name {design_1_radix_sort_accelerat_0_1} \
+  CONFIG.M00_AXIS.CLK_DOMAIN {} \
+  CONFIG.M00_AXIS.FREQ_HZ {100000000} \
+  CONFIG.M00_AXIS.HAS_TKEEP {0} \
+  CONFIG.M00_AXIS.HAS_TLAST {1} \
+  CONFIG.M00_AXIS.HAS_TREADY {1} \
+  CONFIG.M00_AXIS.HAS_TSTRB {1} \
+  CONFIG.M00_AXIS.INSERT_VIP {0} \
+  CONFIG.M00_AXIS.LAYERED_METADATA {undef} \
+  CONFIG.M00_AXIS.PHASE {0.000} \
+  CONFIG.M00_AXIS.TDATA_NUM_BYTES {4} \
+  CONFIG.M00_AXIS.TDEST_WIDTH {0} \
+  CONFIG.M00_AXIS.TID_WIDTH {0} \
+  CONFIG.M00_AXIS.TUSER_WIDTH {0} \
+  CONFIG.M00_AXIS.WIZ_DATA_WIDTH {32} \
+  CONFIG.M00_AXIS_CLK.ASSOCIATED_BUSIF {M00_AXIS} \
+  CONFIG.M00_AXIS_CLK.ASSOCIATED_RESET {m00_axis_aresetn} \
+  CONFIG.M00_AXIS_CLK.CLK_DOMAIN {} \
+  CONFIG.M00_AXIS_CLK.FREQ_HZ {100000000} \
+  CONFIG.M00_AXIS_CLK.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.M00_AXIS_CLK.INSERT_VIP {0} \
+  CONFIG.M00_AXIS_CLK.PHASE {0.000} \
+  CONFIG.M00_AXIS_RST.INSERT_VIP {0} \
+  CONFIG.M00_AXIS_RST.POLARITY {ACTIVE_LOW} \
+  CONFIG.S00_AXIS.CLK_DOMAIN {} \
+  CONFIG.S00_AXIS.FREQ_HZ {100000000} \
+  CONFIG.S00_AXIS.HAS_TKEEP {0} \
+  CONFIG.S00_AXIS.HAS_TLAST {1} \
+  CONFIG.S00_AXIS.HAS_TREADY {1} \
+  CONFIG.S00_AXIS.HAS_TSTRB {1} \
+  CONFIG.S00_AXIS.INSERT_VIP {0} \
+  CONFIG.S00_AXIS.LAYERED_METADATA {undef} \
+  CONFIG.S00_AXIS.PHASE {0.000} \
+  CONFIG.S00_AXIS.TDATA_NUM_BYTES {4} \
+  CONFIG.S00_AXIS.TDEST_WIDTH {0} \
+  CONFIG.S00_AXIS.TID_WIDTH {0} \
+  CONFIG.S00_AXIS.TUSER_WIDTH {0} \
+  CONFIG.S00_AXIS.WIZ_DATA_WIDTH {32} \
+  CONFIG.S00_AXIS_CLK.ASSOCIATED_BUSIF {S00_AXIS} \
+  CONFIG.S00_AXIS_CLK.ASSOCIATED_RESET {s00_axis_aresetn} \
+  CONFIG.S00_AXIS_CLK.CLK_DOMAIN {} \
+  CONFIG.S00_AXIS_CLK.FREQ_HZ {100000000} \
+  CONFIG.S00_AXIS_CLK.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.S00_AXIS_CLK.INSERT_VIP {0} \
+  CONFIG.S00_AXIS_CLK.PHASE {0.000} \
+  CONFIG.S00_AXIS_RST.INSERT_VIP {0} \
+  CONFIG.S00_AXIS_RST.POLARITY {ACTIVE_LOW} " [get_ips design_1_radix_sort_accelerat_0_1]
+
+

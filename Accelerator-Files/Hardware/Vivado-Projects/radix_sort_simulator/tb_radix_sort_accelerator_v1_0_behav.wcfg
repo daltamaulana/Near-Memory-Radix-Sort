@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_radix_sort_accelerator_v1_0_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_radix_sort_accelerator_v1_0" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="33145637fs"></ZoomStartTime>
+      <ZoomEndTime time="33201818fs"></ZoomEndTime>
+      <Cursor1Time time="33155000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="385"></NameColumnWidth>
+      <ValueColumnWidth column_width="163"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="group138" type="group">
+      <obj_property name="label">S00 AXI Slave</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/O_GLOBAL_START" type="logic">
+         <obj_property name="ElementShortName">O_GLOBAL_START</obj_property>
+         <obj_property name="ObjectShortName">O_GLOBAL_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/O_ADDR_INPUT" type="array">
+         <obj_property name="ElementShortName">O_ADDR_INPUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_ADDR_INPUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/O_ADDR_INSTRUCTION" type="array">
+         <obj_property name="ElementShortName">O_ADDR_INSTRUCTION[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_ADDR_INSTRUCTION[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/O_ADDR_OUTPUT" type="array">
+         <obj_property name="ElementShortName">O_ADDR_OUTPUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_ADDR_OUTPUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/O_FORCE_LOAD_INSTRUCTION" type="logic">
+         <obj_property name="ElementShortName">O_FORCE_LOAD_INSTRUCTION</obj_property>
+         <obj_property name="ObjectShortName">O_FORCE_LOAD_INSTRUCTION</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_PROGRAM_COUNTER" type="array">
+         <obj_property name="ElementShortName">I_PROGRAM_COUNTER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_PROGRAM_COUNTER[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/O_BRAM_DEBUG_ADDR" type="array">
+         <obj_property name="ElementShortName">O_BRAM_DEBUG_ADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_BRAM_DEBUG_ADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/O_BRAM_MODE_DEBUG" type="array">
+         <obj_property name="ElementShortName">O_BRAM_MODE_DEBUG[2:0]</obj_property>
+         <obj_property name="ObjectShortName">O_BRAM_MODE_DEBUG[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_BRAM_DEBUG_INSTRUCTION" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_INSTRUCTION[63:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_INSTRUCTION[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_BRAM_DEBUG_WEIGHT" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_WEIGHT[71:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_WEIGHT[71:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_BRAM_DEBUG_FMAP" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_FMAP[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_FMAP[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_BRAM_DEBUG_BIAS" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_BIAS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_BIAS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_BRAM_DEBUG_OUT_0" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_OUT_0[447:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_OUT_0[447:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_BRAM_DEBUG_OUT_1" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_OUT_1[447:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_OUT_1[447:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_BRAM_DEBUG_DLQ" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_DLQ[447:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_DLQ[447:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_BRAM_DEBUG_MP" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_MP[447:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_MP[447:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_REG_DEBUG_SCALE_POS" type="array">
+         <obj_property name="ElementShortName">I_REG_DEBUG_SCALE_POS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_REG_DEBUG_SCALE_POS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_REG_DEBUG_SCALE_NEG" type="array">
+         <obj_property name="ElementShortName">I_REG_DEBUG_SCALE_NEG[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_REG_DEBUG_SCALE_NEG[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_FSM_STREAM_MASTER" type="array">
+         <obj_property name="ElementShortName">I_FSM_STREAM_MASTER[7:0]</obj_property>
+         <obj_property name="ObjectShortName">I_FSM_STREAM_MASTER[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_FSM_STREAM_SLAVE" type="array">
+         <obj_property name="ElementShortName">I_FSM_STREAM_SLAVE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">I_FSM_STREAM_SLAVE[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_FSM_DMA_CONTROLLER" type="array">
+         <obj_property name="ElementShortName">I_FSM_DMA_CONTROLLER[7:0]</obj_property>
+         <obj_property name="ObjectShortName">I_FSM_DMA_CONTROLLER[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_IRQ_SIGNAL" type="logic">
+         <obj_property name="ElementShortName">I_IRQ_SIGNAL</obj_property>
+         <obj_property name="ObjectShortName">I_IRQ_SIGNAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_STATE_COUNTER" type="array">
+         <obj_property name="ElementShortName">I_STATE_COUNTER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_STATE_COUNTER[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_FIFO_STATUS_SLAVE" type="array">
+         <obj_property name="ElementShortName">I_FIFO_STATUS_SLAVE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">I_FIFO_STATUS_SLAVE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_FIFO_STATUS_MASTER" type="array">
+         <obj_property name="ElementShortName">I_FIFO_STATUS_MASTER[1:0]</obj_property>
+         <obj_property name="ObjectShortName">I_FIFO_STATUS_MASTER[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_PC_CHANGED" type="logic">
+         <obj_property name="ElementShortName">I_PC_CHANGED</obj_property>
+         <obj_property name="ObjectShortName">I_PC_CHANGED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_SCU_STATE_MACHINE" type="array">
+         <obj_property name="ElementShortName">I_SCU_STATE_MACHINE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SCU_STATE_MACHINE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_INTERNAL_COUNTER" type="array">
+         <obj_property name="ElementShortName">I_INTERNAL_COUNTER[3:0]</obj_property>
+         <obj_property name="ObjectShortName">I_INTERNAL_COUNTER[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/I_INSTRUCTION_OUT" type="array">
+         <obj_property name="ElementShortName">I_INSTRUCTION_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_INSTRUCTION_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_ACLK" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_ARESETN" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWADDR[8:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWADDR[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_AWPROT" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARADDR[8:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARADDR[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_ARPROT" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS_unit/S_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group168" type="group">
+      <obj_property name="label">M00 AXI Master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/I_REG_ADDRESS" type="array">
+         <obj_property name="ElementShortName">I_REG_ADDRESS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_REG_ADDRESS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/I_REG_DATA" type="array">
+         <obj_property name="ElementShortName">I_REG_DATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_REG_DATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/I_TRANSFER_MODE" type="array">
+         <obj_property name="ElementShortName">I_TRANSFER_MODE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">I_TRANSFER_MODE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/I_INIT_AXI_TXN" type="logic">
+         <obj_property name="ElementShortName">I_INIT_AXI_TXN</obj_property>
+         <obj_property name="ObjectShortName">I_INIT_AXI_TXN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/O_AXI_TXN_DONE" type="logic">
+         <obj_property name="ElementShortName">O_AXI_TXN_DONE</obj_property>
+         <obj_property name="ObjectShortName">O_AXI_TXN_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/O_FSM_DMA_CONTROLLER" type="array">
+         <obj_property name="ElementShortName">O_FSM_DMA_CONTROLLER[7:0]</obj_property>
+         <obj_property name="ObjectShortName">O_FSM_DMA_CONTROLLER[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/I_BRAM_DEBUG_ADDR" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_ADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_ADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/O_DATA_LOGGER" type="array">
+         <obj_property name="ElementShortName">O_DATA_LOGGER[63:0]</obj_property>
+         <obj_property name="ObjectShortName">O_DATA_LOGGER[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_ACLK" type="logic">
+         <obj_property name="ElementShortName">M_AXI_ACLK</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_ARESETN" type="logic">
+         <obj_property name="ElementShortName">M_AXI_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">M_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_AWPROT" type="array">
+         <obj_property name="ElementShortName">M_AXI_AWPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_AWPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">M_AXI_WDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_WDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">M_AXI_WSTRB[3:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_WSTRB[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">M_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">M_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_ARADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_ARPROT" type="array">
+         <obj_property name="ElementShortName">M_AXI_ARPROT[2:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_ARPROT[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">M_AXI_RDATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_RDATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">M_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA_unit/M_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXI_RREADY</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group184" type="group">
+      <obj_property name="label">S00 AXIS Slave</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/I_STREAM_DEQUEUE" type="logic">
+         <obj_property name="ElementShortName">I_STREAM_DEQUEUE</obj_property>
+         <obj_property name="ObjectShortName">I_STREAM_DEQUEUE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/O_STREAM_VALID" type="logic">
+         <obj_property name="ElementShortName">O_STREAM_VALID</obj_property>
+         <obj_property name="ObjectShortName">O_STREAM_VALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/O_STREAM_FIFO" type="array">
+         <obj_property name="ElementShortName">O_STREAM_FIFO[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_STREAM_FIFO[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/O_STREAM_EMPTY" type="logic">
+         <obj_property name="ElementShortName">O_STREAM_EMPTY</obj_property>
+         <obj_property name="ObjectShortName">O_STREAM_EMPTY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/O_FSM_STREAM_SLAVE" type="array">
+         <obj_property name="ElementShortName">O_FSM_STREAM_SLAVE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">O_FSM_STREAM_SLAVE[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/I_STREAM_DEBUG_ADDR" type="array">
+         <obj_property name="ElementShortName">I_STREAM_DEBUG_ADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_STREAM_DEBUG_ADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/O_STREAM_FIFO_INPUT_DEBUG" type="array">
+         <obj_property name="ElementShortName">O_STREAM_FIFO_INPUT_DEBUG[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_STREAM_FIFO_INPUT_DEBUG[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/O_FIFO_STATUS" type="array">
+         <obj_property name="ElementShortName">O_FIFO_STATUS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">O_FIFO_STATUS[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/S_AXIS_ACLK" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_ACLK</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/S_AXIS_ARESETN" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/S_AXIS_TREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_TREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/S_AXIS_TDATA" type="array">
+         <obj_property name="ElementShortName">S_AXIS_TDATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TDATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/S_AXIS_TSTRB" type="array">
+         <obj_property name="ElementShortName">S_AXIS_TSTRB[15:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TSTRB[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/S_AXIS_TLAST" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_TLAST</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_S00_AXIS_unit/S_AXIS_TVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_TVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_TVALID</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group200" type="group">
+      <obj_property name="label">M00 AXIS Master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/I_FIFO_IN_QUEUE" type="logic">
+         <obj_property name="ElementShortName">I_FIFO_IN_QUEUE</obj_property>
+         <obj_property name="ObjectShortName">I_FIFO_IN_QUEUE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/I_FIFO_IN_DATA" type="array">
+         <obj_property name="ElementShortName">I_FIFO_IN_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_FIFO_IN_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/O_FIFO_ALMOST_FULL" type="logic">
+         <obj_property name="ElementShortName">O_FIFO_ALMOST_FULL</obj_property>
+         <obj_property name="ObjectShortName">O_FIFO_ALMOST_FULL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/O_FIFO_OUT_FULL" type="logic">
+         <obj_property name="ElementShortName">O_FIFO_OUT_FULL</obj_property>
+         <obj_property name="ObjectShortName">O_FIFO_OUT_FULL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/I_NO_OF_TRANSACTION" type="array">
+         <obj_property name="ElementShortName">I_NO_OF_TRANSACTION[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_NO_OF_TRANSACTION[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/O_FSM_STREAM_MASTER" type="array">
+         <obj_property name="ElementShortName">O_FSM_STREAM_MASTER[7:0]</obj_property>
+         <obj_property name="ObjectShortName">O_FSM_STREAM_MASTER[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/O_DATA_SEND_DONE" type="logic">
+         <obj_property name="ElementShortName">O_DATA_SEND_DONE</obj_property>
+         <obj_property name="ObjectShortName">O_DATA_SEND_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/O_FIFO_STATUS" type="array">
+         <obj_property name="ElementShortName">O_FIFO_STATUS[1:0]</obj_property>
+         <obj_property name="ObjectShortName">O_FIFO_STATUS[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/M_AXIS_ACLK" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_ACLK</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/M_AXIS_ARESETN" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/M_AXIS_TVALID" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_TVALID</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/M_AXIS_TDATA" type="array">
+         <obj_property name="ElementShortName">M_AXIS_TDATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TDATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/M_AXIS_TSTRB" type="array">
+         <obj_property name="ElementShortName">M_AXIS_TSTRB[15:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TSTRB[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/M_AXIS_TLAST" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_TLAST</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_v1_0_M00_AXIS_unit/M_AXIS_TREADY" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_TREADY</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_TREADY</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group330" type="group">
+      <obj_property name="label">SCU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_ACLK" type="logic">
+         <obj_property name="ElementShortName">I_ACLK</obj_property>
+         <obj_property name="ObjectShortName">I_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_ARESETN" type="logic">
+         <obj_property name="ElementShortName">I_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">I_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_GLOBAL_START" type="logic">
+         <obj_property name="ElementShortName">I_GLOBAL_START</obj_property>
+         <obj_property name="ObjectShortName">I_GLOBAL_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_FORCE_LOAD_INSTRUCTION" type="logic">
+         <obj_property name="ElementShortName">I_FORCE_LOAD_INSTRUCTION</obj_property>
+         <obj_property name="ObjectShortName">I_FORCE_LOAD_INSTRUCTION</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_BRAM_DEBUG_ADDR" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_ADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_ADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_PL_TO_PS_IRQ" type="logic">
+         <obj_property name="ElementShortName">O_PL_TO_PS_IRQ</obj_property>
+         <obj_property name="ObjectShortName">O_PL_TO_PS_IRQ</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_STATE_LOGGER_DATA" type="array">
+         <obj_property name="ElementShortName">O_STATE_LOGGER_DATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_STATE_LOGGER_DATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_INSTRUCTION_DATA" type="array">
+         <obj_property name="ElementShortName">I_INSTRUCTION_DATA[63:0]</obj_property>
+         <obj_property name="ObjectShortName">I_INSTRUCTION_DATA[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_PROGRAM_COUNTER" type="array">
+         <obj_property name="ElementShortName">O_PROGRAM_COUNTER[9:0]</obj_property>
+         <obj_property name="ObjectShortName">O_PROGRAM_COUNTER[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_LOAD_INSTRUCTION_START" type="logic">
+         <obj_property name="ElementShortName">O_LOAD_INSTRUCTION_START</obj_property>
+         <obj_property name="ObjectShortName">O_LOAD_INSTRUCTION_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_LOAD_INSTRUCTION_DONE" type="logic">
+         <obj_property name="ElementShortName">I_LOAD_INSTRUCTION_DONE</obj_property>
+         <obj_property name="ObjectShortName">I_LOAD_INSTRUCTION_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_LI_START" type="logic">
+         <obj_property name="ElementShortName">O_LI_START</obj_property>
+         <obj_property name="ObjectShortName">O_LI_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_LI_NO_OF_ROW" type="array">
+         <obj_property name="ElementShortName">O_LI_NO_OF_ROW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LI_NO_OF_ROW[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_LI_START_POINTER" type="array">
+         <obj_property name="ElementShortName">O_LI_START_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LI_START_POINTER[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_LI_SEL" type="array">
+         <obj_property name="ElementShortName">O_LI_SEL[9:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LI_SEL[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_LI_DONE" type="logic">
+         <obj_property name="ElementShortName">I_LI_DONE</obj_property>
+         <obj_property name="ObjectShortName">I_LI_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_SO_START" type="logic">
+         <obj_property name="ElementShortName">O_SO_START</obj_property>
+         <obj_property name="ObjectShortName">O_SO_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_SO_START_POINTER" type="array">
+         <obj_property name="ElementShortName">O_SO_START_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SO_START_POINTER[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_SO_END_POINTER" type="array">
+         <obj_property name="ElementShortName">O_SO_END_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SO_END_POINTER[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_SO_DONE" type="logic">
+         <obj_property name="ElementShortName">I_SO_DONE</obj_property>
+         <obj_property name="ObjectShortName">I_SO_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_DMA_START" type="logic">
+         <obj_property name="ElementShortName">O_DMA_START</obj_property>
+         <obj_property name="ObjectShortName">O_DMA_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_DMA_ADDR" type="array">
+         <obj_property name="ElementShortName">O_DMA_ADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_DMA_ADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_DMA_BYTE_TO_TRANSFER" type="array">
+         <obj_property name="ElementShortName">O_DMA_BYTE_TO_TRANSFER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_DMA_BYTE_TO_TRANSFER[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_DMA_NO_OF_TRANSACTION" type="array">
+         <obj_property name="ElementShortName">O_DMA_NO_OF_TRANSACTION[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_DMA_NO_OF_TRANSACTION[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_DMA_MODE" type="array">
+         <obj_property name="ElementShortName">O_DMA_MODE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">O_DMA_MODE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_DMA_DONE" type="logic">
+         <obj_property name="ElementShortName">I_DMA_DONE</obj_property>
+         <obj_property name="ObjectShortName">I_DMA_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/I_DATA_SEND_DONE" type="logic">
+         <obj_property name="ElementShortName">I_DATA_SEND_DONE</obj_property>
+         <obj_property name="ObjectShortName">I_DATA_SEND_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_PC_CHANGED" type="logic">
+         <obj_property name="ElementShortName">O_PC_CHANGED</obj_property>
+         <obj_property name="ObjectShortName">O_PC_CHANGED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_SCU_STATE_MACHINE" type="array">
+         <obj_property name="ElementShortName">O_SCU_STATE_MACHINE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SCU_STATE_MACHINE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_INTERNAL_COUNTER" type="array">
+         <obj_property name="ElementShortName">O_INTERNAL_COUNTER[3:0]</obj_property>
+         <obj_property name="ObjectShortName">O_INTERNAL_COUNTER[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/O_INSTRUCTION_OUT" type="array">
+         <obj_property name="ElementShortName">O_INSTRUCTION_OUT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_INSTRUCTION_OUT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/r_scu_state_machine" type="array">
+         <obj_property name="ElementShortName">r_scu_state_machine[3:0]</obj_property>
+         <obj_property name="ObjectShortName">r_scu_state_machine[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group217" type="group">
+      <obj_property name="label">Load Instruction</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/I_ACLK" type="logic">
+         <obj_property name="ElementShortName">I_ACLK</obj_property>
+         <obj_property name="ObjectShortName">I_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/I_ARESETN" type="logic">
+         <obj_property name="ElementShortName">I_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">I_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/O_STREAM_DEQUEUE" type="logic">
+         <obj_property name="ElementShortName">O_STREAM_DEQUEUE</obj_property>
+         <obj_property name="ObjectShortName">O_STREAM_DEQUEUE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/I_STREAM_VALID" type="logic">
+         <obj_property name="ElementShortName">I_STREAM_VALID</obj_property>
+         <obj_property name="ObjectShortName">I_STREAM_VALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/I_STREAM_DATA" type="array">
+         <obj_property name="ElementShortName">I_STREAM_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_STREAM_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/I_START" type="logic">
+         <obj_property name="ElementShortName">I_START</obj_property>
+         <obj_property name="ObjectShortName">I_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/O_DONE" type="logic">
+         <obj_property name="ElementShortName">O_DONE</obj_property>
+         <obj_property name="ObjectShortName">O_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/O_LOAD_INSTRUCTION_POINTER" type="array">
+         <obj_property name="ElementShortName">O_LOAD_INSTRUCTION_POINTER[9:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LOAD_INSTRUCTION_POINTER[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/O_LOAD_INSTRUCTION_VALID" type="logic">
+         <obj_property name="ElementShortName">O_LOAD_INSTRUCTION_VALID</obj_property>
+         <obj_property name="ObjectShortName">O_LOAD_INSTRUCTION_VALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/O_LOAD_INSTRUCTION_DATA" type="array">
+         <obj_property name="ElementShortName">O_LOAD_INSTRUCTION_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LOAD_INSTRUCTION_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/r_start_delay" type="logic">
+         <obj_property name="ElementShortName">r_start_delay</obj_property>
+         <obj_property name="ObjectShortName">r_start_delay</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/w_start_pulse" type="logic">
+         <obj_property name="ElementShortName">w_start_pulse</obj_property>
+         <obj_property name="ObjectShortName">w_start_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/r_internal_state" type="array">
+         <obj_property name="ElementShortName">r_internal_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_internal_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/w_last" type="logic">
+         <obj_property name="ElementShortName">w_last</obj_property>
+         <obj_property name="ObjectShortName">w_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/r_load_instruction_state" type="array">
+         <obj_property name="ElementShortName">r_load_instruction_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_load_instruction_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_instruction_module/r_load_instruction_pointer" type="array">
+         <obj_property name="ElementShortName">r_load_instruction_pointer[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_load_instruction_pointer[9:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group239" type="group">
+      <obj_property name="label">Load Input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/I_ACLK" type="logic">
+         <obj_property name="ElementShortName">I_ACLK</obj_property>
+         <obj_property name="ObjectShortName">I_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/I_ARESETN" type="logic">
+         <obj_property name="ElementShortName">I_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">I_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/O_STREAM_DEQUEUE" type="logic">
+         <obj_property name="ElementShortName">O_STREAM_DEQUEUE</obj_property>
+         <obj_property name="ObjectShortName">O_STREAM_DEQUEUE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/I_STREAM_VALID" type="logic">
+         <obj_property name="ElementShortName">I_STREAM_VALID</obj_property>
+         <obj_property name="ObjectShortName">I_STREAM_VALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/I_STREAM_DATA" type="array">
+         <obj_property name="ElementShortName">I_STREAM_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_STREAM_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/I_START" type="logic">
+         <obj_property name="ElementShortName">I_START</obj_property>
+         <obj_property name="ObjectShortName">I_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/I_NO_OF_ROW" type="array">
+         <obj_property name="ElementShortName">I_NO_OF_ROW[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_NO_OF_ROW[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/I_START_POINTER" type="array">
+         <obj_property name="ElementShortName">I_START_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">I_START_POINTER[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/I_SEL" type="array">
+         <obj_property name="ElementShortName">I_SEL[9:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SEL[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/O_DONE" type="logic">
+         <obj_property name="ElementShortName">O_DONE</obj_property>
+         <obj_property name="ObjectShortName">O_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/O_LI_POINTER" type="array">
+         <obj_property name="ElementShortName">O_LI_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LI_POINTER[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/O_LI_VALID" type="logic">
+         <obj_property name="ElementShortName">O_LI_VALID</obj_property>
+         <obj_property name="ObjectShortName">O_LI_VALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/O_LI_DATA" type="array">
+         <obj_property name="ElementShortName">O_LI_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LI_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/O_LI_SEL" type="array">
+         <obj_property name="ElementShortName">O_LI_SEL[9:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LI_SEL[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/r_start_delay" type="logic">
+         <obj_property name="ElementShortName">r_start_delay</obj_property>
+         <obj_property name="ObjectShortName">r_start_delay</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/w_start_pulse" type="logic">
+         <obj_property name="ElementShortName">w_start_pulse</obj_property>
+         <obj_property name="ObjectShortName">w_start_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/r_data_counter" type="array">
+         <obj_property name="ElementShortName">r_data_counter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_counter[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/r_load_input_pointer" type="array">
+         <obj_property name="ElementShortName">r_load_input_pointer[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_load_input_pointer[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/r_internal_state" type="array">
+         <obj_property name="ElementShortName">r_internal_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_internal_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/w_last" type="logic">
+         <obj_property name="ElementShortName">w_last</obj_property>
+         <obj_property name="ObjectShortName">w_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/load_input_module/r_load_input_state" type="array">
+         <obj_property name="ElementShortName">r_load_input_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_load_input_state[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group263" type="group">
+      <obj_property name="label">Stream Out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/I_ACLK" type="logic">
+         <obj_property name="ElementShortName">I_ACLK</obj_property>
+         <obj_property name="ObjectShortName">I_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/I_ARESETN" type="logic">
+         <obj_property name="ElementShortName">I_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">I_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/I_START" type="logic">
+         <obj_property name="ElementShortName">I_START</obj_property>
+         <obj_property name="ObjectShortName">I_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/I_START_POINTER" type="array">
+         <obj_property name="ElementShortName">I_START_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">I_START_POINTER[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/I_END_POINTER" type="array">
+         <obj_property name="ElementShortName">I_END_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">I_END_POINTER[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/O_DONE" type="logic">
+         <obj_property name="ElementShortName">O_DONE</obj_property>
+         <obj_property name="ObjectShortName">O_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/O_BRAM_SEL" type="array">
+         <obj_property name="ElementShortName">O_BRAM_SEL[9:0]</obj_property>
+         <obj_property name="ObjectShortName">O_BRAM_SEL[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/O_SEND_DATA_POINTER" type="array">
+         <obj_property name="ElementShortName">O_SEND_DATA_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SEND_DATA_POINTER[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/I_STREAM_FULL" type="logic">
+         <obj_property name="ElementShortName">I_STREAM_FULL</obj_property>
+         <obj_property name="ObjectShortName">I_STREAM_FULL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/O_STREAM_QUEUE" type="logic">
+         <obj_property name="ElementShortName">O_STREAM_QUEUE</obj_property>
+         <obj_property name="ObjectShortName">O_STREAM_QUEUE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/O_STREAM_SEND_NOW" type="logic">
+         <obj_property name="ElementShortName">O_STREAM_SEND_NOW</obj_property>
+         <obj_property name="ObjectShortName">O_STREAM_SEND_NOW</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/r_start_delay" type="logic">
+         <obj_property name="ElementShortName">r_start_delay</obj_property>
+         <obj_property name="ObjectShortName">r_start_delay</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/w_start_pulse" type="logic">
+         <obj_property name="ElementShortName">w_start_pulse</obj_property>
+         <obj_property name="ObjectShortName">w_start_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/r_internal_state" type="array">
+         <obj_property name="ElementShortName">r_internal_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_internal_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/w_last" type="logic">
+         <obj_property name="ElementShortName">w_last</obj_property>
+         <obj_property name="ObjectShortName">w_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/w_stream_queue" type="logic">
+         <obj_property name="ElementShortName">w_stream_queue</obj_property>
+         <obj_property name="ObjectShortName">w_stream_queue</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/r_stream_queue_delayed" type="logic">
+         <obj_property name="ElementShortName">r_stream_queue_delayed</obj_property>
+         <obj_property name="ObjectShortName">r_stream_queue_delayed</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/w_do_so_last" type="logic">
+         <obj_property name="ElementShortName">w_do_so_last</obj_property>
+         <obj_property name="ObjectShortName">w_do_so_last</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/r_do_so_state" type="array">
+         <obj_property name="ElementShortName">r_do_so_state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_do_so_state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/r_send_pointer" type="array">
+         <obj_property name="ElementShortName">r_send_pointer[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_send_pointer[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/r_data_counter" type="array">
+         <obj_property name="ElementShortName">r_data_counter[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_counter[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/data_ordering_unit/stream_out_module/r_bram_sel" type="array">
+         <obj_property name="ElementShortName">r_bram_sel[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_bram_sel[9:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group297" type="group">
+      <obj_property name="label">SCU BRAM Bank</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/I_ACLK" type="logic">
+         <obj_property name="ElementShortName">I_ACLK</obj_property>
+         <obj_property name="ObjectShortName">I_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/I_ARESETN" type="logic">
+         <obj_property name="ElementShortName">I_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">I_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/I_SEL_REG" type="array">
+         <obj_property name="ElementShortName">I_SEL_REG[7:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SEL_REG[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/I_SEL_MULTIPLE" type="array">
+         <obj_property name="ElementShortName">I_SEL_MULTIPLE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SEL_MULTIPLE[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/I_EN_MULTIPLE" type="array">
+         <obj_property name="ElementShortName">I_EN_MULTIPLE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">I_EN_MULTIPLE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/I_SEL_COL" type="array">
+         <obj_property name="ElementShortName">I_SEL_COL[3:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SEL_COL[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/I_VALUE" type="array">
+         <obj_property name="ElementShortName">I_VALUE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">I_VALUE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/I_MODE" type="array">
+         <obj_property name="ElementShortName">I_MODE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">I_MODE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/I_INSTRUCTION_OPCODE" type="array">
+         <obj_property name="ElementShortName">I_INSTRUCTION_OPCODE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">I_INSTRUCTION_OPCODE[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/I_START" type="logic">
+         <obj_property name="ElementShortName">I_START</obj_property>
+         <obj_property name="ObjectShortName">I_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_DONE" type="logic">
+         <obj_property name="ElementShortName">O_DONE</obj_property>
+         <obj_property name="ObjectShortName">O_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_DMA_ADDRESS" type="array">
+         <obj_property name="ElementShortName">O_DMA_ADDRESS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_DMA_ADDRESS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_DMA_BYTE_TO_TRANSFER" type="array">
+         <obj_property name="ElementShortName">O_DMA_BYTE_TO_TRANSFER[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_DMA_BYTE_TO_TRANSFER[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_DMA_NO_OF_TRANSACTION" type="array">
+         <obj_property name="ElementShortName">O_DMA_NO_OF_TRANSACTION[31:0]</obj_property>
+         <obj_property name="ObjectShortName">O_DMA_NO_OF_TRANSACTION[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_LI_START_POINTER" type="array">
+         <obj_property name="ElementShortName">O_LI_START_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LI_START_POINTER[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_SO_START_POINTER" type="array">
+         <obj_property name="ElementShortName">O_SO_START_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SO_START_POINTER[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_SO_END_POINTER" type="array">
+         <obj_property name="ElementShortName">O_SO_END_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SO_END_POINTER[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_LOOP_I" type="array">
+         <obj_property name="ElementShortName">O_LOOP_I[15:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LOOP_I[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_LOOP_I_MAX" type="array">
+         <obj_property name="ElementShortName">O_LOOP_I_MAX[15:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LOOP_I_MAX[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_LOOP_J" type="array">
+         <obj_property name="ElementShortName">O_LOOP_J[15:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LOOP_J[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_LOOP_J_MAX" type="array">
+         <obj_property name="ElementShortName">O_LOOP_J_MAX[15:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LOOP_J_MAX[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_LOOP_K" type="array">
+         <obj_property name="ElementShortName">O_LOOP_K[15:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LOOP_K[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_LOOP_K_MAX" type="array">
+         <obj_property name="ElementShortName">O_LOOP_K_MAX[15:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LOOP_K_MAX[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_LOOP_L" type="array">
+         <obj_property name="ElementShortName">O_LOOP_L[15:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LOOP_L[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/O_LOOP_L_MAX" type="array">
+         <obj_property name="ElementShortName">O_LOOP_L_MAX[15:0]</obj_property>
+         <obj_property name="ObjectShortName">O_LOOP_L_MAX[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/r_dma_addr" type="array">
+         <obj_property name="ElementShortName">r_dma_addr[0:3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dma_addr[0:3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/r_dma_btt" type="array">
+         <obj_property name="ElementShortName">r_dma_btt[0:3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dma_btt[0:3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/r_dma_not" type="array">
+         <obj_property name="ElementShortName">r_dma_not[0:3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">r_dma_not[0:3][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/r_start_ptr" type="array">
+         <obj_property name="ElementShortName">r_start_ptr[0:3][10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_start_ptr[0:3][10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/r_end_ptr" type="array">
+         <obj_property name="ElementShortName">r_end_ptr[0:3][10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_end_ptr[0:3][10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/r_loop_max" type="array">
+         <obj_property name="ElementShortName">r_loop_max[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_loop_max[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/r_loop" type="array">
+         <obj_property name="ElementShortName">r_loop[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">r_loop[0:3][15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/status_and_control_unit/scu_bram_bank_unit/r_internal_state" type="array">
+         <obj_property name="ElementShortName">r_internal_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">r_internal_state[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group8273" type="group">
+      <obj_property name="label">Radix Sorting Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/I_ACLK" type="logic">
+         <obj_property name="ElementShortName">I_ACLK</obj_property>
+         <obj_property name="ObjectShortName">I_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/I_ARESETN" type="logic">
+         <obj_property name="ElementShortName">I_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">I_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/I_SORTING_START" type="logic">
+         <obj_property name="ElementShortName">I_SORTING_START</obj_property>
+         <obj_property name="ObjectShortName">I_SORTING_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/O_SORTING_DONE" type="logic">
+         <obj_property name="ElementShortName">O_SORTING_DONE</obj_property>
+         <obj_property name="ObjectShortName">O_SORTING_DONE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/I_EVEN_DATA" type="array">
+         <obj_property name="ElementShortName">I_EVEN_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_EVEN_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/I_ODD_DATA" type="array">
+         <obj_property name="ElementShortName">I_ODD_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_ODD_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/O_EVEN_WE" type="logic">
+         <obj_property name="ElementShortName">O_EVEN_WE</obj_property>
+         <obj_property name="ObjectShortName">O_EVEN_WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/O_ODD_WE" type="logic">
+         <obj_property name="ElementShortName">O_ODD_WE</obj_property>
+         <obj_property name="ObjectShortName">O_ODD_WE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/O_EVEN_ADDR" type="array">
+         <obj_property name="ElementShortName">O_EVEN_ADDR[10:0]</obj_property>
+         <obj_property name="ObjectShortName">O_EVEN_ADDR[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/O_ODD_ADDR" type="array">
+         <obj_property name="ElementShortName">O_ODD_ADDR[10:0]</obj_property>
+         <obj_property name="ObjectShortName">O_ODD_ADDR[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/O_SORT_DATA" type="array">
+         <obj_property name="ElementShortName">O_SORT_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SORT_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/D_SORT_STATE" type="array">
+         <obj_property name="ElementShortName">D_SORT_STATE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">D_SORT_STATE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/D_FIRST_STATE" type="array">
+         <obj_property name="ElementShortName">D_FIRST_STATE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">D_FIRST_STATE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/D_EVEN_STATE" type="array">
+         <obj_property name="ElementShortName">D_EVEN_STATE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">D_EVEN_STATE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/D_ODD_STATE" type="array">
+         <obj_property name="ElementShortName">D_ODD_STATE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">D_ODD_STATE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/D_DATA_STATE" type="array">
+         <obj_property name="ElementShortName">D_DATA_STATE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">D_DATA_STATE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/D_SORT_START_DELAY" type="logic">
+         <obj_property name="ElementShortName">D_SORT_START_DELAY</obj_property>
+         <obj_property name="ObjectShortName">D_SORT_START_DELAY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/D_POINTER_0" type="array">
+         <obj_property name="ElementShortName">D_POINTER_0[11:0]</obj_property>
+         <obj_property name="ObjectShortName">D_POINTER_0[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/D_POINTER_1" type="array">
+         <obj_property name="ElementShortName">D_POINTER_1[11:0]</obj_property>
+         <obj_property name="ObjectShortName">D_POINTER_1[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1474" type="group">
+         <obj_property name="label">Registers</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_mask" type="array">
+            <obj_property name="ElementShortName">r_data_mask[31:0]</obj_property>
+            <obj_property name="ObjectShortName">r_data_mask[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_row_idx" type="logic">
+            <obj_property name="ElementShortName">w_row_idx</obj_property>
+            <obj_property name="ObjectShortName">w_row_idx</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_data_pattern" type="array">
+            <obj_property name="ElementShortName">w_data_pattern[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_data_pattern[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_sorted_array" type="array">
+            <obj_property name="ElementShortName">w_sorted_array[255:0]</obj_property>
+            <obj_property name="ObjectShortName">w_sorted_array[255:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_unsorted_array" type="array">
+            <obj_property name="ElementShortName">w_unsorted_array[255:0]</obj_property>
+            <obj_property name="ObjectShortName">w_unsorted_array[255:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_shifter_data" type="array">
+            <obj_property name="ElementShortName">r_shifter_data[127:0]</obj_property>
+            <obj_property name="ObjectShortName">r_shifter_data[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_shifter_start" type="logic">
+            <obj_property name="ElementShortName">w_shifter_start</obj_property>
+            <obj_property name="ObjectShortName">w_shifter_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_shifter_valid" type="logic">
+            <obj_property name="ElementShortName">w_shifter_valid</obj_property>
+            <obj_property name="ObjectShortName">w_shifter_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_shifter_first_row" type="logic">
+            <obj_property name="ElementShortName">w_shifter_first_row</obj_property>
+            <obj_property name="ObjectShortName">w_shifter_first_row</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_one_count" type="array">
+            <obj_property name="ElementShortName">w_one_count[10:0]</obj_property>
+            <obj_property name="ObjectShortName">w_one_count[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_zero_count" type="array">
+            <obj_property name="ElementShortName">w_zero_count[10:0]</obj_property>
+            <obj_property name="ObjectShortName">w_zero_count[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_shifter_cache_data" type="array">
+            <obj_property name="ElementShortName">w_shifter_cache_data[127:0]</obj_property>
+            <obj_property name="ObjectShortName">w_shifter_cache_data[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_start_delay" type="logic">
+            <obj_property name="ElementShortName">r_start_delay</obj_property>
+            <obj_property name="ObjectShortName">r_start_delay</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_start_pulse" type="logic">
+            <obj_property name="ElementShortName">w_start_pulse</obj_property>
+            <obj_property name="ObjectShortName">w_start_pulse</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_sort_state" type="array">
+            <obj_property name="ElementShortName">r_sort_state[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_sort_state[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_sort_state_prev" type="array">
+            <obj_property name="ElementShortName">r_sort_state_prev[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_sort_state_prev[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_digit" type="array">
+            <obj_property name="ElementShortName">r_digit[4:0]</obj_property>
+            <obj_property name="ObjectShortName">r_digit[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_pointer_0" type="array">
+            <obj_property name="ElementShortName">w_pointer_0[10:0]</obj_property>
+            <obj_property name="ObjectShortName">w_pointer_0[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_pointer_1" type="array">
+            <obj_property name="ElementShortName">w_pointer_1[10:0]</obj_property>
+            <obj_property name="ObjectShortName">w_pointer_1[10:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_sorter_mixed_flag" type="logic">
+            <obj_property name="ElementShortName">w_sorter_mixed_flag</obj_property>
+            <obj_property name="ObjectShortName">w_sorter_mixed_flag</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_sorter_data_pattern" type="array">
+            <obj_property name="ElementShortName">w_sorter_data_pattern[2:0]</obj_property>
+            <obj_property name="ObjectShortName">w_sorter_data_pattern[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_count_0" type="array">
+            <obj_property name="ElementShortName">w_count_0[10:0]</obj_property>
+            <obj_property name="ObjectShortName">w_count_0[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_count_1" type="array">
+            <obj_property name="ElementShortName">w_count_1[10:0]</obj_property>
+            <obj_property name="ObjectShortName">w_count_1[10:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1473" type="group">
+         <obj_property name="label">First Radix</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_start" type="logic">
+            <obj_property name="ElementShortName">r_first_start</obj_property>
+            <obj_property name="ObjectShortName">r_first_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_start_delay" type="logic">
+            <obj_property name="ElementShortName">r_first_start_delay</obj_property>
+            <obj_property name="ObjectShortName">r_first_start_delay</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_first_done" type="logic">
+            <obj_property name="ElementShortName">w_first_done</obj_property>
+            <obj_property name="ObjectShortName">w_first_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_first_start_pulse" type="logic">
+            <obj_property name="ElementShortName">w_first_start_pulse</obj_property>
+            <obj_property name="ObjectShortName">w_first_start_pulse</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_state" type="array">
+            <obj_property name="ElementShortName">r_first_state[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_first_state[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_mixed_flag" type="logic">
+            <obj_property name="ElementShortName">r_first_mixed_flag</obj_property>
+            <obj_property name="ObjectShortName">r_first_mixed_flag</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_data_pattern" type="array">
+            <obj_property name="ElementShortName">r_first_data_pattern[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_first_data_pattern[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_shifter_start" type="logic">
+            <obj_property name="ElementShortName">r_first_shifter_start</obj_property>
+            <obj_property name="ObjectShortName">r_first_shifter_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_even_we" type="logic">
+            <obj_property name="ElementShortName">r_first_even_we</obj_property>
+            <obj_property name="ObjectShortName">r_first_even_we</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_odd_we" type="logic">
+            <obj_property name="ElementShortName">r_first_odd_we</obj_property>
+            <obj_property name="ObjectShortName">r_first_odd_we</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_addr_even" type="array">
+            <obj_property name="ElementShortName">r_first_addr_even[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_first_addr_even[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_addr_odd" type="array">
+            <obj_property name="ElementShortName">r_first_addr_odd[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_first_addr_odd[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_pointer_0" type="array">
+            <obj_property name="ElementShortName">r_first_pointer_0[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_first_pointer_0[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_pointer_1" type="array">
+            <obj_property name="ElementShortName">r_first_pointer_1[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_first_pointer_1[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_sorted_cache" type="array">
+            <obj_property name="ElementShortName">r_first_sorted_cache[1:0][127:0]</obj_property>
+            <obj_property name="ObjectShortName">r_first_sorted_cache[1:0][127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_first_unsorted_cache" type="array">
+            <obj_property name="ElementShortName">r_first_unsorted_cache[1:0][127:0]</obj_property>
+            <obj_property name="ObjectShortName">r_first_unsorted_cache[1:0][127:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1470" type="group">
+         <obj_property name="label">Even Radix</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_start" type="logic">
+            <obj_property name="ElementShortName">r_even_start</obj_property>
+            <obj_property name="ObjectShortName">r_even_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_start_delay" type="logic">
+            <obj_property name="ElementShortName">r_even_start_delay</obj_property>
+            <obj_property name="ObjectShortName">r_even_start_delay</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_even_done" type="logic">
+            <obj_property name="ElementShortName">w_even_done</obj_property>
+            <obj_property name="ObjectShortName">w_even_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_even_start_pulse" type="logic">
+            <obj_property name="ElementShortName">w_even_start_pulse</obj_property>
+            <obj_property name="ObjectShortName">w_even_start_pulse</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_state" type="array">
+            <obj_property name="ElementShortName">r_even_state[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_even_state[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_mixed_flag" type="logic">
+            <obj_property name="ElementShortName">r_even_mixed_flag</obj_property>
+            <obj_property name="ObjectShortName">r_even_mixed_flag</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_data_pattern" type="array">
+            <obj_property name="ElementShortName">r_even_data_pattern[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_even_data_pattern[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_shifter_start" type="logic">
+            <obj_property name="ElementShortName">r_even_shifter_start</obj_property>
+            <obj_property name="ObjectShortName">r_even_shifter_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_even_we" type="logic">
+            <obj_property name="ElementShortName">r_even_even_we</obj_property>
+            <obj_property name="ObjectShortName">r_even_even_we</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_odd_we" type="logic">
+            <obj_property name="ElementShortName">r_even_odd_we</obj_property>
+            <obj_property name="ObjectShortName">r_even_odd_we</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_addr_even" type="array">
+            <obj_property name="ElementShortName">r_even_addr_even[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_even_addr_even[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_addr_odd" type="array">
+            <obj_property name="ElementShortName">r_even_addr_odd[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_even_addr_odd[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_pointer_0" type="array">
+            <obj_property name="ElementShortName">r_even_pointer_0[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_even_pointer_0[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_pointer_1" type="array">
+            <obj_property name="ElementShortName">r_even_pointer_1[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_even_pointer_1[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_sorted_cache" type="array">
+            <obj_property name="ElementShortName">r_even_sorted_cache[1:0][127:0]</obj_property>
+            <obj_property name="ObjectShortName">r_even_sorted_cache[1:0][127:0]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_even_unsorted_cache" type="array">
+            <obj_property name="ElementShortName">r_even_unsorted_cache[1:0][127:0]</obj_property>
+            <obj_property name="ObjectShortName">r_even_unsorted_cache[1:0][127:0]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1471" type="group">
+         <obj_property name="label">Odd Radix</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_start" type="logic">
+            <obj_property name="ElementShortName">r_odd_start</obj_property>
+            <obj_property name="ObjectShortName">r_odd_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_start_delay" type="logic">
+            <obj_property name="ElementShortName">r_odd_start_delay</obj_property>
+            <obj_property name="ObjectShortName">r_odd_start_delay</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_odd_done" type="logic">
+            <obj_property name="ElementShortName">w_odd_done</obj_property>
+            <obj_property name="ObjectShortName">w_odd_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_odd_start_pulse" type="logic">
+            <obj_property name="ElementShortName">w_odd_start_pulse</obj_property>
+            <obj_property name="ObjectShortName">w_odd_start_pulse</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_state" type="array">
+            <obj_property name="ElementShortName">r_odd_state[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_odd_state[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_mixed_flag" type="logic">
+            <obj_property name="ElementShortName">r_odd_mixed_flag</obj_property>
+            <obj_property name="ObjectShortName">r_odd_mixed_flag</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_data_pattern" type="array">
+            <obj_property name="ElementShortName">r_odd_data_pattern[2:0]</obj_property>
+            <obj_property name="ObjectShortName">r_odd_data_pattern[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_shifter_start" type="logic">
+            <obj_property name="ElementShortName">r_odd_shifter_start</obj_property>
+            <obj_property name="ObjectShortName">r_odd_shifter_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_even_we" type="logic">
+            <obj_property name="ElementShortName">r_odd_even_we</obj_property>
+            <obj_property name="ObjectShortName">r_odd_even_we</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_odd_we" type="logic">
+            <obj_property name="ElementShortName">r_odd_odd_we</obj_property>
+            <obj_property name="ObjectShortName">r_odd_odd_we</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_addr_even" type="array">
+            <obj_property name="ElementShortName">r_odd_addr_even[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_odd_addr_even[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_addr_odd" type="array">
+            <obj_property name="ElementShortName">r_odd_addr_odd[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_odd_addr_odd[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_pointer_0" type="array">
+            <obj_property name="ElementShortName">r_odd_pointer_0[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_odd_pointer_0[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_pointer_1" type="array">
+            <obj_property name="ElementShortName">r_odd_pointer_1[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_odd_pointer_1[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_sorted_cache" type="array">
+            <obj_property name="ElementShortName">r_odd_sorted_cache[1:0][127:0]</obj_property>
+            <obj_property name="ObjectShortName">r_odd_sorted_cache[1:0][127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_odd_unsorted_cache" type="array">
+            <obj_property name="ElementShortName">r_odd_unsorted_cache[1:0][127:0]</obj_property>
+            <obj_property name="ObjectShortName">r_odd_unsorted_cache[1:0][127:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1472" type="group">
+         <obj_property name="label">Data Radix</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_start" type="logic">
+            <obj_property name="ElementShortName">r_data_start</obj_property>
+            <obj_property name="ObjectShortName">r_data_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_start_delay" type="logic">
+            <obj_property name="ElementShortName">r_data_start_delay</obj_property>
+            <obj_property name="ObjectShortName">r_data_start_delay</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_data_done" type="logic">
+            <obj_property name="ElementShortName">w_data_done</obj_property>
+            <obj_property name="ObjectShortName">w_data_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/w_data_start_pulse" type="logic">
+            <obj_property name="ElementShortName">w_data_start_pulse</obj_property>
+            <obj_property name="ObjectShortName">w_data_start_pulse</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_state" type="array">
+            <obj_property name="ElementShortName">r_data_state[3:0]</obj_property>
+            <obj_property name="ObjectShortName">r_data_state[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_shifter_start" type="logic">
+            <obj_property name="ElementShortName">r_data_shifter_start</obj_property>
+            <obj_property name="ObjectShortName">r_data_shifter_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_even_we" type="logic">
+            <obj_property name="ElementShortName">r_data_even_we</obj_property>
+            <obj_property name="ObjectShortName">r_data_even_we</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_odd_we" type="logic">
+            <obj_property name="ElementShortName">r_data_odd_we</obj_property>
+            <obj_property name="ObjectShortName">r_data_odd_we</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_addr_even" type="array">
+            <obj_property name="ElementShortName">r_data_addr_even[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_data_addr_even[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_addr_odd" type="array">
+            <obj_property name="ElementShortName">r_data_addr_odd[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_data_addr_odd[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_pointer_0" type="array">
+            <obj_property name="ElementShortName">r_data_pointer_0[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_data_pointer_0[10:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_data_pointer_1" type="array">
+            <obj_property name="ElementShortName">r_data_pointer_1[10:0]</obj_property>
+            <obj_property name="ObjectShortName">r_data_pointer_1[10:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/radix_sorting_unit/r_sort_data" type="array">
+         <obj_property name="ElementShortName">r_sort_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">r_sort_data[127:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2638" type="group">
+      <obj_property name="label">BRAM Bank</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_BRAM_MODE_DEBUG" type="array">
+         <obj_property name="ElementShortName">I_BRAM_MODE_DEBUG[2:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_MODE_DEBUG[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_BRAM_DEBUG_ADDR" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DEBUG_ADDR[10:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DEBUG_ADDR[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_LOAD_INSTRUCTION_POINTER" type="array">
+         <obj_property name="ElementShortName">I_LOAD_INSTRUCTION_POINTER[9:0]</obj_property>
+         <obj_property name="ObjectShortName">I_LOAD_INSTRUCTION_POINTER[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_LOAD_INSTRUCTION_VALID" type="logic">
+         <obj_property name="ElementShortName">I_LOAD_INSTRUCTION_VALID</obj_property>
+         <obj_property name="ObjectShortName">I_LOAD_INSTRUCTION_VALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_LOAD_INSTRUCTION_DATA" type="array">
+         <obj_property name="ElementShortName">I_LOAD_INSTRUCTION_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_LOAD_INSTRUCTION_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_PROGRAM_COUNTER" type="array">
+         <obj_property name="ElementShortName">I_PROGRAM_COUNTER[9:0]</obj_property>
+         <obj_property name="ObjectShortName">I_PROGRAM_COUNTER[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_PROGRAM_INSTRUCTION" type="array">
+         <obj_property name="ElementShortName">O_PROGRAM_INSTRUCTION[63:0]</obj_property>
+         <obj_property name="ObjectShortName">O_PROGRAM_INSTRUCTION[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_BRAM_DEBUG_INSTRUCTION" type="array">
+         <obj_property name="ElementShortName">O_BRAM_DEBUG_INSTRUCTION[63:0]</obj_property>
+         <obj_property name="ObjectShortName">O_BRAM_DEBUG_INSTRUCTION[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_LI_POINTER" type="array">
+         <obj_property name="ElementShortName">I_LI_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">I_LI_POINTER[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_LI_VALID" type="logic">
+         <obj_property name="ElementShortName">I_LI_VALID</obj_property>
+         <obj_property name="ObjectShortName">I_LI_VALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_LI_DATA" type="array">
+         <obj_property name="ElementShortName">I_LI_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_LI_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_LI_SEL" type="array">
+         <obj_property name="ElementShortName">I_LI_SEL[9:0]</obj_property>
+         <obj_property name="ObjectShortName">I_LI_SEL[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_SORT_DATA_0_A" type="array">
+         <obj_property name="ElementShortName">O_SORT_DATA_0_A[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SORT_DATA_0_A[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_SORT_DATA_0_B" type="array">
+         <obj_property name="ElementShortName">O_SORT_DATA_0_B[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SORT_DATA_0_B[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_SORT_DATA_1_A" type="array">
+         <obj_property name="ElementShortName">O_SORT_DATA_1_A[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SORT_DATA_1_A[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_SORT_DATA_1_B" type="array">
+         <obj_property name="ElementShortName">O_SORT_DATA_1_B[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SORT_DATA_1_B[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SORT_EVEN_POINTER" type="array">
+         <obj_property name="ElementShortName">I_SORT_EVEN_POINTER[9:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SORT_EVEN_POINTER[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SORT_EVEN_VALID" type="logic">
+         <obj_property name="ElementShortName">I_SORT_EVEN_VALID</obj_property>
+         <obj_property name="ObjectShortName">I_SORT_EVEN_VALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SORT_EVEN_DATA" type="array">
+         <obj_property name="ElementShortName">I_SORT_EVEN_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SORT_EVEN_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SORT_EVEN_SEL" type="array">
+         <obj_property name="ElementShortName">I_SORT_EVEN_SEL[9:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SORT_EVEN_SEL[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_SORT_EVEN_DATA" type="array">
+         <obj_property name="ElementShortName">O_SORT_EVEN_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SORT_EVEN_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SORT_ODD_POINTER" type="array">
+         <obj_property name="ElementShortName">I_SORT_ODD_POINTER[9:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SORT_ODD_POINTER[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SORT_ODD_VALID" type="logic">
+         <obj_property name="ElementShortName">I_SORT_ODD_VALID</obj_property>
+         <obj_property name="ObjectShortName">I_SORT_ODD_VALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SORT_ODD_DATA" type="array">
+         <obj_property name="ElementShortName">I_SORT_ODD_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SORT_ODD_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SORT_ODD_SEL" type="array">
+         <obj_property name="ElementShortName">I_SORT_ODD_SEL[9:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SORT_ODD_SEL[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_SORT_ODD_DATA" type="array">
+         <obj_property name="ElementShortName">O_SORT_ODD_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SORT_ODD_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_BRAM_OUT_0_A" type="array">
+         <obj_property name="ElementShortName">O_BRAM_OUT_0_A[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_BRAM_OUT_0_A[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_BRAM_OUT_0_B" type="array">
+         <obj_property name="ElementShortName">O_BRAM_OUT_0_B[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_BRAM_OUT_0_B[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_BRAM_OUT_1_A" type="array">
+         <obj_property name="ElementShortName">O_BRAM_OUT_1_A[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_BRAM_OUT_1_A[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_BRAM_OUT_1_B" type="array">
+         <obj_property name="ElementShortName">O_BRAM_OUT_1_B[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_BRAM_OUT_1_B[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SO_NOW" type="logic">
+         <obj_property name="ElementShortName">I_SO_NOW</obj_property>
+         <obj_property name="ObjectShortName">I_SO_NOW</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SO_BRAM_SEL" type="array">
+         <obj_property name="ElementShortName">I_SO_BRAM_SEL[9:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SO_BRAM_SEL[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/I_SO_POINTER" type="array">
+         <obj_property name="ElementShortName">I_SO_POINTER[10:0]</obj_property>
+         <obj_property name="ObjectShortName">I_SO_POINTER[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/O_SO_DATA" type="array">
+         <obj_property name="ElementShortName">O_SO_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_SO_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_instruction_pointer_a" type="array">
+         <obj_property name="ElementShortName">w_instruction_pointer_a[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_instruction_pointer_a[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_instruction_pointer_b" type="array">
+         <obj_property name="ElementShortName">w_instruction_pointer_b[9:0]</obj_property>
+         <obj_property name="ObjectShortName">w_instruction_pointer_b[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_out_instruction_a" type="array">
+         <obj_property name="ElementShortName">w_out_instruction_a[63:0]</obj_property>
+         <obj_property name="ObjectShortName">w_out_instruction_a[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_out_instruction_b" type="array">
+         <obj_property name="ElementShortName">w_out_instruction_b[63:0]</obj_property>
+         <obj_property name="ObjectShortName">w_out_instruction_b[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_0_we_a" type="logic">
+         <obj_property name="ElementShortName">w_sort_data_0_we_a</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_0_we_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_even_0_valid" type="logic">
+         <obj_property name="ElementShortName">w_sort_even_0_valid</obj_property>
+         <obj_property name="ObjectShortName">w_sort_even_0_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_0_valid" type="logic">
+         <obj_property name="ElementShortName">w_sort_data_0_valid</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_0_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_0_debug" type="logic">
+         <obj_property name="ElementShortName">w_sort_data_0_debug</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_0_debug</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_0_data" type="array">
+         <obj_property name="ElementShortName">w_sort_data_0_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_0_data[127:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/sort_data_0_pointer_a" type="array">
+         <obj_property name="ElementShortName">sort_data_0_pointer_a[10:0]</obj_property>
+         <obj_property name="ObjectShortName">sort_data_0_pointer_a[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/sort_data_0_pointer_b" type="array">
+         <obj_property name="ElementShortName">sort_data_0_pointer_b[10:0]</obj_property>
+         <obj_property name="ObjectShortName">sort_data_0_pointer_b[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_0_out_a" type="array">
+         <obj_property name="ElementShortName">w_sort_data_0_out_a[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_0_out_a[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_0_out_b" type="array">
+         <obj_property name="ElementShortName">w_sort_data_0_out_b[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_0_out_b[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_1_we_a" type="logic">
+         <obj_property name="ElementShortName">w_sort_data_1_we_a</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_1_we_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_even_1_valid" type="logic">
+         <obj_property name="ElementShortName">w_sort_even_1_valid</obj_property>
+         <obj_property name="ObjectShortName">w_sort_even_1_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_1_valid" type="logic">
+         <obj_property name="ElementShortName">w_sort_data_1_valid</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_1_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_1_debug" type="logic">
+         <obj_property name="ElementShortName">w_sort_data_1_debug</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_1_debug</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_1_data" type="array">
+         <obj_property name="ElementShortName">w_sort_data_1_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_1_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/sort_data_1_pointer_a" type="array">
+         <obj_property name="ElementShortName">sort_data_1_pointer_a[10:0]</obj_property>
+         <obj_property name="ObjectShortName">sort_data_1_pointer_a[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/sort_data_1_pointer_b" type="array">
+         <obj_property name="ElementShortName">sort_data_1_pointer_b[10:0]</obj_property>
+         <obj_property name="ObjectShortName">sort_data_1_pointer_b[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_1_out_a" type="array">
+         <obj_property name="ElementShortName">w_sort_data_1_out_a[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_1_out_a[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_sort_data_1_out_b" type="array">
+         <obj_property name="ElementShortName">w_sort_data_1_out_b[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_sort_data_1_out_b[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_bram_out_0_we_a" type="logic">
+         <obj_property name="ElementShortName">w_bram_out_0_we_a</obj_property>
+         <obj_property name="ObjectShortName">w_bram_out_0_we_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/sort_odd_0_valid" type="logic">
+         <obj_property name="ElementShortName">sort_odd_0_valid</obj_property>
+         <obj_property name="ObjectShortName">sort_odd_0_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_bram_out_0_debug" type="logic">
+         <obj_property name="ElementShortName">w_bram_out_0_debug</obj_property>
+         <obj_property name="ObjectShortName">w_bram_out_0_debug</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/bram_out_0_pointer_a" type="array">
+         <obj_property name="ElementShortName">bram_out_0_pointer_a[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_out_0_pointer_a[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/bram_out_0_pointer_b" type="array">
+         <obj_property name="ElementShortName">bram_out_0_pointer_b[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_out_0_pointer_b[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_bram_out_0_out_a" type="array">
+         <obj_property name="ElementShortName">w_bram_out_0_out_a[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_bram_out_0_out_a[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_bram_out_0_out_b" type="array">
+         <obj_property name="ElementShortName">w_bram_out_0_out_b[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_bram_out_0_out_b[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_bram_out_1_we_a" type="logic">
+         <obj_property name="ElementShortName">w_bram_out_1_we_a</obj_property>
+         <obj_property name="ObjectShortName">w_bram_out_1_we_a</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/sort_odd_1_valid" type="logic">
+         <obj_property name="ElementShortName">sort_odd_1_valid</obj_property>
+         <obj_property name="ObjectShortName">sort_odd_1_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_bram_out_1_debug" type="logic">
+         <obj_property name="ElementShortName">w_bram_out_1_debug</obj_property>
+         <obj_property name="ObjectShortName">w_bram_out_1_debug</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/bram_out_1_pointer_a" type="array">
+         <obj_property name="ElementShortName">bram_out_1_pointer_a[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_out_1_pointer_a[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/bram_out_1_pointer_b" type="array">
+         <obj_property name="ElementShortName">bram_out_1_pointer_b[10:0]</obj_property>
+         <obj_property name="ObjectShortName">bram_out_1_pointer_b[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_bram_out_1_out_a" type="array">
+         <obj_property name="ElementShortName">w_bram_out_1_out_a[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_bram_out_1_out_a[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/w_bram_out_1_out_b" type="array">
+         <obj_property name="ElementShortName">w_bram_out_1_out_b[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_bram_out_1_out_b[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_radix_sort_accelerator_v1_0/UUT/radix_sort_accelerator_main_unit/bram_bank_unit/r_so_bram_sel_delayed" type="array">
+         <obj_property name="ElementShortName">r_so_bram_sel_delayed[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_so_bram_sel_delayed[9:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

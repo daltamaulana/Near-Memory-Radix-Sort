@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_two_bram_radix_sorter_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_two_bram_radix_sorter" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="700863500fs"></ZoomStartTime>
+      <ZoomEndTime time="701027301fs"></ZoomEndTime>
+      <Cursor1Time time="700938300fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="302"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="group1846" type="group">
+      <obj_property name="label">Testbench Signal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/CLK" type="logic">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/RESETN" type="logic">
+         <obj_property name="ElementShortName">RESETN</obj_property>
+         <obj_property name="ObjectShortName">RESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/DATA_IN1" type="array">
+         <obj_property name="ElementShortName">DATA_IN1[127:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN1[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/DATA_IN2" type="array">
+         <obj_property name="ElementShortName">DATA_IN2[127:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_IN2[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/DATA_OUT" type="array">
+         <obj_property name="ElementShortName">DATA_OUT[127:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_OUT[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/ADDR1" type="array">
+         <obj_property name="ElementShortName">ADDR1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR1[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/ADDR2" type="array">
+         <obj_property name="ElementShortName">ADDR2[9:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDR2[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/WE1" type="logic">
+         <obj_property name="ElementShortName">WE1</obj_property>
+         <obj_property name="ObjectShortName">WE1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/WE2" type="logic">
+         <obj_property name="ElementShortName">WE2</obj_property>
+         <obj_property name="ObjectShortName">WE2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/FIRST_START" type="logic">
+         <obj_property name="ElementShortName">FIRST_START</obj_property>
+         <obj_property name="ObjectShortName">FIRST_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/DONE" type="logic">
+         <obj_property name="ElementShortName">DONE</obj_property>
+         <obj_property name="ObjectShortName">DONE</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1901" type="group">
+      <obj_property name="label">UUT Signal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/resetn" type="logic">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_in1" type="array">
+         <obj_property name="ElementShortName">data_in1[127:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in1[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_in2" type="array">
+         <obj_property name="ElementShortName">data_in2[127:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in2[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[127:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/addr1" type="array">
+         <obj_property name="ElementShortName">addr1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr1[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/addr2" type="array">
+         <obj_property name="ElementShortName">addr2[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr2[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/mixed_pointer" type="array">
+         <obj_property name="ElementShortName">mixed_pointer[9:0]</obj_property>
+         <obj_property name="ObjectShortName">mixed_pointer[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/pointer1" type="array">
+         <obj_property name="ElementShortName">pointer1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">pointer1[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/pointer0" type="array">
+         <obj_property name="ElementShortName">pointer0[9:0]</obj_property>
+         <obj_property name="ObjectShortName">pointer0[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/wen1" type="logic">
+         <obj_property name="ElementShortName">wen1</obj_property>
+         <obj_property name="ObjectShortName">wen1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/wen2" type="logic">
+         <obj_property name="ElementShortName">wen2</obj_property>
+         <obj_property name="ObjectShortName">wen2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/we1" type="logic">
+         <obj_property name="ElementShortName">we1</obj_property>
+         <obj_property name="ObjectShortName">we1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/we2" type="logic">
+         <obj_property name="ElementShortName">we2</obj_property>
+         <obj_property name="ObjectShortName">we2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/unsorted_cache" type="array">
+         <obj_property name="ElementShortName">unsorted_cache[1:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">unsorted_cache[1:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/sorted_cache" type="array">
+         <obj_property name="ElementShortName">sorted_cache[1:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">sorted_cache[1:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/unsorted_array" type="array">
+         <obj_property name="ElementShortName">unsorted_array[255:0]</obj_property>
+         <obj_property name="ObjectShortName">unsorted_array[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/sorted_array" type="array">
+         <obj_property name="ElementShortName">sorted_array[255:0]</obj_property>
+         <obj_property name="ObjectShortName">sorted_array[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/row_idx" type="logic">
+         <obj_property name="ElementShortName">row_idx</obj_property>
+         <obj_property name="ObjectShortName">row_idx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_pattern" type="array">
+         <obj_property name="ElementShortName">data_pattern[2:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pattern[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/mask" type="array">
+         <obj_property name="ElementShortName">mask[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mask[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/r_shifter_start" type="logic">
+         <obj_property name="ElementShortName">r_shifter_start</obj_property>
+         <obj_property name="ObjectShortName">r_shifter_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/w_shifter_first_row" type="logic">
+         <obj_property name="ElementShortName">w_shifter_first_row</obj_property>
+         <obj_property name="ObjectShortName">w_shifter_first_row</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/w_shifter_valid" type="logic">
+         <obj_property name="ElementShortName">w_shifter_valid</obj_property>
+         <obj_property name="ObjectShortName">w_shifter_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/w_shifter_cache_data" type="array">
+         <obj_property name="ElementShortName">w_shifter_cache_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">w_shifter_cache_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/r_start_delay" type="logic">
+         <obj_property name="ElementShortName">r_start_delay</obj_property>
+         <obj_property name="ObjectShortName">r_start_delay</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/start_pulse" type="logic">
+         <obj_property name="ElementShortName">start_pulse</obj_property>
+         <obj_property name="ObjectShortName">start_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="group1923" type="group">
+         <obj_property name="label">First State Signal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/first_start" type="logic">
+            <obj_property name="ElementShortName">first_start</obj_property>
+            <obj_property name="ObjectShortName">first_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/r_first_delay" type="logic">
+            <obj_property name="ElementShortName">r_first_delay</obj_property>
+            <obj_property name="ObjectShortName">r_first_delay</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/first_start_pulse" type="logic">
+            <obj_property name="ElementShortName">first_start_pulse</obj_property>
+            <obj_property name="ObjectShortName">first_start_pulse</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/first_done" type="logic">
+            <obj_property name="ElementShortName">first_done</obj_property>
+            <obj_property name="ObjectShortName">first_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/first_state" type="array">
+            <obj_property name="ElementShortName">first_state[2:0]</obj_property>
+            <obj_property name="ObjectShortName">first_state[2:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1924" type="group">
+         <obj_property name="label">Even State Signal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/even_start" type="logic">
+            <obj_property name="ElementShortName">even_start</obj_property>
+            <obj_property name="ObjectShortName">even_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/r_even_delay" type="logic">
+            <obj_property name="ElementShortName">r_even_delay</obj_property>
+            <obj_property name="ObjectShortName">r_even_delay</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/even_start_pulse" type="logic">
+            <obj_property name="ElementShortName">even_start_pulse</obj_property>
+            <obj_property name="ObjectShortName">even_start_pulse</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/even_done" type="logic">
+            <obj_property name="ElementShortName">even_done</obj_property>
+            <obj_property name="ObjectShortName">even_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/even_state" type="array">
+            <obj_property name="ElementShortName">even_state[3:0]</obj_property>
+            <obj_property name="ObjectShortName">even_state[3:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1925" type="group">
+         <obj_property name="label">Odd State Signal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/odd_start" type="logic">
+            <obj_property name="ElementShortName">odd_start</obj_property>
+            <obj_property name="ObjectShortName">odd_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/r_odd_delay" type="logic">
+            <obj_property name="ElementShortName">r_odd_delay</obj_property>
+            <obj_property name="ObjectShortName">r_odd_delay</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/odd_start_pulse" type="logic">
+            <obj_property name="ElementShortName">odd_start_pulse</obj_property>
+            <obj_property name="ObjectShortName">odd_start_pulse</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/odd_done" type="logic">
+            <obj_property name="ElementShortName">odd_done</obj_property>
+            <obj_property name="ObjectShortName">odd_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/odd_state" type="array">
+            <obj_property name="ElementShortName">odd_state[3:0]</obj_property>
+            <obj_property name="ObjectShortName">odd_state[3:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group1926" type="group">
+         <obj_property name="label">Data State Signal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/r_data_delay" type="logic">
+            <obj_property name="ElementShortName">r_data_delay</obj_property>
+            <obj_property name="ObjectShortName">r_data_delay</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_start" type="logic">
+            <obj_property name="ElementShortName">data_start</obj_property>
+            <obj_property name="ObjectShortName">data_start</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_done" type="logic">
+            <obj_property name="ElementShortName">data_done</obj_property>
+            <obj_property name="ObjectShortName">data_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_start_pulse" type="logic">
+            <obj_property name="ElementShortName">data_start_pulse</obj_property>
+            <obj_property name="ObjectShortName">data_start_pulse</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_state" type="array">
+            <obj_property name="ElementShortName">data_state[3:0]</obj_property>
+            <obj_property name="ObjectShortName">data_state[3:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/digit" type="array">
+         <obj_property name="ElementShortName">digit[4:0]</obj_property>
+         <obj_property name="ObjectShortName">digit[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/r_data_pattern" type="array">
+         <obj_property name="ElementShortName">r_data_pattern[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_pattern[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/mixed_flag" type="logic">
+         <obj_property name="ElementShortName">mixed_flag</obj_property>
+         <obj_property name="ObjectShortName">mixed_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/count0" type="array">
+         <obj_property name="ElementShortName">count0[9:0]</obj_property>
+         <obj_property name="ObjectShortName">count0[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/count1" type="array">
+         <obj_property name="ElementShortName">count1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">count1[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/r_addr1" type="array">
+         <obj_property name="ElementShortName">r_addr1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_addr1[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/r_addr2" type="array">
+         <obj_property name="ElementShortName">r_addr2[9:0]</obj_property>
+         <obj_property name="ObjectShortName">r_addr2[9:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1922" type="group">
+      <obj_property name="label">Data Shifter Signal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/I_ACLK" type="logic">
+         <obj_property name="ElementShortName">I_ACLK</obj_property>
+         <obj_property name="ObjectShortName">I_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/I_ARESETN" type="logic">
+         <obj_property name="ElementShortName">I_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">I_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/I_START" type="logic">
+         <obj_property name="ElementShortName">I_START</obj_property>
+         <obj_property name="ObjectShortName">I_START</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/I_DATA_FLAG" type="logic">
+         <obj_property name="ElementShortName">I_DATA_FLAG</obj_property>
+         <obj_property name="ObjectShortName">I_DATA_FLAG</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/I_FIRST_ROW" type="logic">
+         <obj_property name="ElementShortName">I_FIRST_ROW</obj_property>
+         <obj_property name="ObjectShortName">I_FIRST_ROW</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/I_DATA_PATTERN" type="array">
+         <obj_property name="ElementShortName">I_DATA_PATTERN[2:0]</obj_property>
+         <obj_property name="ObjectShortName">I_DATA_PATTERN[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/I_ZERO_COUNT" type="array">
+         <obj_property name="ElementShortName">I_ZERO_COUNT[10:0]</obj_property>
+         <obj_property name="ObjectShortName">I_ZERO_COUNT[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/I_ONE_COUNT" type="array">
+         <obj_property name="ElementShortName">I_ONE_COUNT[10:0]</obj_property>
+         <obj_property name="ObjectShortName">I_ONE_COUNT[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/I_BRAM_DATA" type="array">
+         <obj_property name="ElementShortName">I_BRAM_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">I_BRAM_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/O_VALID" type="logic">
+         <obj_property name="ElementShortName">O_VALID</obj_property>
+         <obj_property name="ObjectShortName">O_VALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/O_CACHE_DATA" type="array">
+         <obj_property name="ElementShortName">O_CACHE_DATA[127:0]</obj_property>
+         <obj_property name="ObjectShortName">O_CACHE_DATA[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/r_start_delay" type="logic">
+         <obj_property name="ElementShortName">r_start_delay</obj_property>
+         <obj_property name="ObjectShortName">r_start_delay</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/w_start_pulse" type="logic">
+         <obj_property name="ElementShortName">w_start_pulse</obj_property>
+         <obj_property name="ObjectShortName">w_start_pulse</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/r_state_machine" type="array">
+         <obj_property name="ElementShortName">r_state_machine[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_state_machine[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/idx" type="array">
+         <obj_property name="ElementShortName">idx[31:0]</obj_property>
+         <obj_property name="ObjectShortName">idx[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/r_data_pattern" type="array">
+         <obj_property name="ElementShortName">r_data_pattern[2:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_pattern[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/r_data_cache" type="array">
+         <obj_property name="ElementShortName">r_data_cache[0:1][127:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_cache[0:1][127:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/r_data_counter" type="array">
+         <obj_property name="ElementShortName">r_data_counter[10:0]</obj_property>
+         <obj_property name="ObjectShortName">r_data_counter[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/r_data_valid" type="logic">
+         <obj_property name="ElementShortName">r_data_valid</obj_property>
+         <obj_property name="ObjectShortName">r_data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/data_shifter_unit/r_data_valid_delayed" type="logic">
+         <obj_property name="ElementShortName">r_data_valid_delayed</obj_property>
+         <obj_property name="ObjectShortName">r_data_valid_delayed</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1939" type="group">
+      <obj_property name="label">Sorting Unit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/SORTING_UNIT/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[255:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/SORTING_UNIT/mask_in" type="array">
+         <obj_property name="ElementShortName">mask_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/SORTING_UNIT/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[255:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/SORTING_UNIT/row_idx" type="logic">
+         <obj_property name="ElementShortName">row_idx</obj_property>
+         <obj_property name="ObjectShortName">row_idx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/SORTING_UNIT/data_pattern" type="array">
+         <obj_property name="ElementShortName">data_pattern[2:0]</obj_property>
+         <obj_property name="ObjectShortName">data_pattern[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/SORTING_UNIT/pointer0" type="array">
+         <obj_property name="ElementShortName">pointer0[3:0]</obj_property>
+         <obj_property name="ObjectShortName">pointer0[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/SORTING_UNIT/pointer1" type="array">
+         <obj_property name="ElementShortName">pointer1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">pointer1[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_two_bram_radix_sorter/UUT/SORTING_UNIT/mask_result" type="array">
+         <obj_property name="ElementShortName">mask_result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mask_result[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

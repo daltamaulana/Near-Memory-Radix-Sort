@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../radix_sort_simulator.srcs/sources_1/imports/radix_sort_rtl/2bram_radix_sorter.v" \
+"../../../../radix_sort_simulator.srcs/sim_1/imports/radix_sort/bram_tdp_in.v" \
+"../../../../radix_sort_simulator.srcs/sim_1/imports/tb_first/bram_tdp_out.v" \
+"../../../../radix_sort_simulator.srcs/sources_1/imports/radix_sort_rtl/count.v" \
+"../../../../radix_sort_simulator.srcs/sources_1/imports/radix_sort_rtl/data_shifter.v" \
+"../../../../radix_sort_simulator.srcs/sources_1/imports/radix_sort_rtl/decoder.v" \
+"../../../../radix_sort_simulator.srcs/sources_1/imports/radix_sort_rtl/mask_unit.v" \
+"../../../../radix_sort_simulator.srcs/sources_1/imports/radix_sort_rtl/rearrange_mux.v" \
+"../../../../radix_sort_simulator.srcs/sources_1/imports/radix_sort_rtl/sorting_unit.v" \
+"../../../../radix_sort_simulator.srcs/sim_1/imports/radix_sort/tb_two_bram_radix_sorter.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

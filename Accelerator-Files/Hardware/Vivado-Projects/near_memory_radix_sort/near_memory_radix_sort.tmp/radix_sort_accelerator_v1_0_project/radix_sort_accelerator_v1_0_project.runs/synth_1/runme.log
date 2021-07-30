@@ -1,0 +1,53 @@
+
+*** Running vivado
+    with args -log radix_sort_accelerator_v1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source radix_sort_accelerator_v1_0.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source radix_sort_accelerator_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/axi_data_mover_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/projects/accelerator/near-memory-radix-sort/hardware/near_memory_radix_sort/near_memory_radix_sort.tmp/radix_sort_accelerator_v1_0_project/radix_sort_accelerator_v1_0_project.cache/ip 
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/bram_bank.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/bram_tdp.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/count.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/data_ordering.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/data_shifter.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/decoder.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/dma_controller.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/load_input_module.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/load_instruction_module.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/mask_unit.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/radix_sort_accelerator_main_unit.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/radix_sort_accelerator_v1_0_M00_AXIS.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/radix_sort_accelerator_v1_0_M00_AXI_TO_DMA.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/radix_sort_accelerator_v1_0_S00_AXIS.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/radix_sort_accelerator_v1_0_S00_AXI_FROM_PS.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/radix_sorting_unit.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/rearrange_mux.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/scu_bram_bank.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/sorting_unit.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/status_and_control_unit.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/stream_out_module.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/stream_queue_in.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/src/stream_queue_out.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [c:/Projects/Accelerator/near-memory-radix-sort/Hardware/ip_repo/radix_sort_accelerator_1.0/hdl/radix_sort_accelerator_v1_0.v:]
+Command: synth_design -top radix_sort_accelerator_v1_0 -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-83] Releasing license: Synthesis
+6 Infos, 25 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: c:/Projects/Accelerator/near-memory-radix-sort/Hardware/near_memory_radix_sort/near_memory_radix_sort.tmp/radix_sort_accelerator_v1_0_project/radix_sort_accelerator_v1_0_project.runs/synth_1/c:/Projects/Accelerator/near-memory-radix-sort/Hardware/near_memory_radix_sort/near_memory_radix_sort.tmp/radix_sort_accelerator_v1_0_project/radix_sort_accelerator_v1_0_project.runs/synth_1/.Xil/Vivado-11672-SEED-LAB-DLT/realtime\radix_sort_accelerator_v1_0.tcl
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 28 12:35:47 2021...

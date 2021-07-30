@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_two_bram_radix_sorter_behav/xsimk.exe -simmode gui -wdb tb_two_bram_radix_sorter_behav.wdb -simrunnum 0 -socket 60393
+Design successfully loaded
+Design Loading Memory Usage: 6792 KB (Peak: 6792 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 16252 KB (Peak: 16252 KB)
+Simulation CPU Usage: 343 ms
