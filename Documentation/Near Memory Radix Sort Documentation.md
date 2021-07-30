@@ -19,12 +19,13 @@
 #### Processing System and RAM
 Processing system is used as an interface between user and accelerator as shown in the figure below. Meanwhile, RAM is used to store the unsorted data and also act as storage to store sorted data from the accelerator. In this design, processing system is a dedicated ARM processor that is capable of running Linux and PYNQ Framework. User can use PYNQ Framework to control the operation of accelerator by writing an application using Python language.
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\Level 0.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/Level%200.jpg?raw=true)
+
 <p align = "center"><b>Figure 1 - System Level 0 Diagram</b></p>
 
 #### Radix Sort Accelerator IP Core
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\Radix Sort IP core.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/Radix%20Sort%20IP%20core.jpg?raw=true)
 <p align = "center"><b>Figure 2 - System Level 1 Diagram</b></p>
 
 Radix Sort Accelerator IP Core consists of 5 modules as shown in the figure above. Those modules are:
@@ -47,13 +48,13 @@ DMA operation mode can be set by configuring the transfer mode signal. DMA opera
 
 In the Vivado, the AXI DMA is configured to use **Direct Register Mode** (ref: **https://www.xilinx.com/support/documentation/ip_documentation/axi_dma/v7_1/pg021_axi_dma.pdf**). Therefore, every transaction is initiated via AXI4 Lite write request.
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\AXI DMA Start.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/AXI%20DMA%20Start.jpg?raw=true)
 <p align = "center"><b>Figure 3 - Starting AXI DMA Waveform </b></p>
 
 **Two AXI4 Lite requests are needed to start AXI DMA**. The first request is to write the AXI DMA register at address 0x0 with data 0x1. This request will start the MM2S channel of DMA. The second request is to write the AXI DMA register at address 0x30 with data 0x1. This
 request will start the S2MM channel of DMA. The request order in this request is not important.
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\AXI DMA Read.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/AXI%20DMA%20Read.jpg?raw=true)
 <p align = "center"><b>Figure 4 - Read from DRAM Request Waveform </b></p>
 
 **Two AXI4 Lite requests are needed to request read data from DRAM via AXI DMA**. The first request is to write the AXI DMA register at address 0x18 with the source address. The
@@ -61,7 +62,7 @@ second request is to write the AXI DMA register at address 0x28 with a number of
 transfer. This second request will also start the transaction. The request order is important
 since sending request no of byte to transfer will start the transaction.
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\AXI DMA Write.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/AXI%20DMA%20Write.jpg?raw=true)
 <p align = "center"><b>Figure 5 - Write to DRAM Request Waveform </b></p>
 
 **Two AXI4 Lite requests are needed to request write data to DRAM via AXI DMA**. The first request is to write the AXI DMA register at address 0x48 with the destination address. The second request is to write the AXI DMA register at address 0x58 with a number of bytes to transfer. This request will also start the transaction. The request order is important since the second request will start the transaction.
@@ -79,8 +80,9 @@ AXI Lite Slave uses AXI4 Lite protocol. This module is based on Xilinx's templat
 	**5. Debug Signals**
 
 The register address of each signals is shown in the table below:
+
 | Slv Reg | Address | Category | Read/Write | Details |
-| --- | --- | --- | --- | --- | --- |
+| ---- | ---- | ---- | ---- | ---- |
 | 0 | 0x000 | Start Signal | Both | This register is used to start the accelerator|
 | 1 | 0x004 | Input Address | Both | This register is used to provide unsorted input data address in DRAM |
 | 2 | 0x008 | Instruction Address | Both | This register is used to provide instruction address in DRAM |
@@ -88,10 +90,11 @@ The register address of each signals is shown in the table below:
 
 **Request order example**
 Initial setup:
+
 	1. Write instruction address to register 0x008
 	2. Write 0x1 value to register 0x000 (start load instruction process)
 	3. Write 0x0 value to register 0x000
-Start sorting process:
+	Start sorting process:
 	1. Write input address to register 0x004
 	2. Write output address to register 0x008
 	3. Write 0x1 value to register 0x000 (start sorting process)
@@ -102,7 +105,7 @@ Start sorting process:
 #### AXI Stream Master Interface
 AXI Stream Master uses AXI4 Stream protocol. This module is based on Xilinx's template code generated via Vivado software. This unit is responsible for sending a stream data from BRAM bank to DRAM via AXI DMA. This module has an internal buffer (queue) with size of 1024x128 bit.
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\AXIS Master.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/AXIS%20Master.jpg?raw=true)
 <p align = "center"><b>Figure 6 - AXI Stream Master Interface</b></p>
 
 After AXI Lite master request write transaction to DRAM to AXI DMA unit, AXI Stream master will assert TVALID along with the corresponding TDATA. If the slave (AXI DMA) reply with TREADY signal, the data will be transferred to DRAM and master can send the next data. But, master shouldn't de-assert TVALID signal or change TDATA before slave assert TREADY signal.
@@ -111,10 +114,10 @@ When both TVALID and TREADY signal are asserted, data will be sent to DRAM. Ther
 
 **Note:** master should always asserts TLAST signal to indicate the last data packet or DMA will return an error and halt the process.
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\DMA Start.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/DMA%20Start.jpg?raw=true)
 <p align = "center"><b>Figure 7 - Writing Data to DRAM via AXI DMA Waveform (Start)</b></p>
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\DMA end.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/DMA%20end.jpg?raw=true)
 <p align = "center"><b>Figure 8 - Writing Data to DRAM via AXI DMA Waveform (End)</b></p>
 Figure above shows the process of writing data to DRAM via AXI DMA. When transaction is complete, AXI stream master will asserts **DATA_SEND_DONE** signal to the status and control unit to indicate that the data transfer has been done successfully. It should be noted that it is forbidden to do another DMA request in the middle of transaction. If there is another DMA request in the middle of transaction, DMA will return an error and halt the process. In case of FIFO full, the unit that wants to send data to DRAM should be paused and wait until FIFO is not full (FIFO full signal de-asserted).
 
@@ -122,7 +125,7 @@ Figure above shows the process of writing data to DRAM via AXI DMA. When transac
 
 AXI Stream Slave uses AXI4 Stream protocol. This module is based on Xilinx's template code generated via Vivado software. This unit is responsible for receiving stream data from DRAM via AXI DMA. This unit has an internal buffer (queue) with the size of 1024x128 bit.
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\AXIS Slave.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/AXIS%20Slave.jpg?raw=true)
 <p align = "center"><b>Figure 8 - AXI Stream Slave Interface</b></p>
 
 After requesting read data from DRAM to DMA, the DMA will assert TVALID along with the
@@ -144,7 +147,7 @@ LOW indicating that there is no data in the stream.
 #### DMA Controller
 DMA controller is a module that forwards request from Status and Control Unit (SCU) to AXI Lite Master unit. This module receives start pulse. source/destination address, number of byte to transfer, number of received transaction (only used when writing data to DRAM), DMA operation (0: Starting DMA, 1: Read DMA, 2: Write DMA).
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\DMA controller.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/DMA%20controller.jpg?raw=true)
 <p align = "center"><b>Figure 10 - DMA Controller Waveform Example</b></p>
 
 #### BRAM Bank
@@ -152,7 +155,7 @@ BRAM bank receives several memory address pointers and receive/send data to/from
 
 #### Data Ordering
 
-![](C:\Users\SEED LAB\OneDrive - kaist.ac.kr\KAIST\Research\Projects\Radix Sort Accelerator\Diagram\Data Ordering.jpg)
+![](https://github.com/daltamaulana/Near-Memory-Radix-Sort/blob/465fb5cd68cff37f49b3da81e0d8ec35f38167d0/Documentation/Assets/Data%20Ordering.jpg?raw=true)
 <p align = "center"><b>Figure 11 - Data Ordering Block Diagram</b></p>
 
 Data ordering module consists of:
